@@ -6,6 +6,12 @@
   background-color: #e5e5e5;
 }
 
+.container {
+  width: 325px;
+  justify-content: center;
+  border: 1px solid blue;
+}
+
 .rectangle {
   height: 2px;
   width: 20px;
@@ -20,14 +26,15 @@
 .menu-button {
   display: block;
   top: 31px;
-  left: 284px;
+  right: 10px;
+  padding-right: 10px;
 }
 
 #yellow-triangle {
   position: absolute;
   width: 74px;
   height: 74px;
-  right: 246px;
+  /*right: 246px;*/
   top: 0;
   background-blend-mode: normal, overlay, normal;
 }
@@ -36,7 +43,8 @@
   position: absolute;
   width: 74px;
   height: 74px;
-  right: 209px;
+  /*right: 209px;*/
+  left: 45px;
   top: 0;
   background-blend-mode: normal, overlay, normal;
 }
@@ -58,7 +66,7 @@
   font-family: Poppins, Roboto, Arial, sans-serif;
   font-weight: 400;
   font-style: normal;
-  size: 14px;
+  font-size: 14px;
   line-height: 21px;
   letter-spacing: normal;
   padding-left: 16px;
@@ -70,6 +78,7 @@
   height: 50px;
   top: 390px;
   left: 16px;
+  margin-left: 16px;
   background-color: #1a2236;
 }
 
@@ -84,7 +93,7 @@
   top: 402px;
   line-height: 24px;
   text-align: center;
-  color: #ffffff;
+  color: #fff;
   vertical-align: middle;
   padding-right: 16px;
 }
