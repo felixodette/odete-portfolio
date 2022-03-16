@@ -1,0 +1,91 @@
+.flex-box {
+  display: flex;
+}
+
+.body {
+  background-color: #E5E5E5;
+}
+
+.rectangle {
+  height: 2px;
+  width: 20px;
+  background-color: #C4C4C4;
+  margin: 6px 0;
+}
+
+.nav {
+  justify-content: space-between;
+}
+
+.menu-button {
+  display: block;
+  top: 31px;
+  left: 284px;
+}
+
+#yellow-triangle {
+  position: absolute;
+  width: 74px;
+  height: 74px;
+  right: 246px;
+  top: 0;
+  background-blend-mode: normal, overlay, normal;
+}
+
+#red-square {
+  position: absolute;
+  width: 74px;
+  height: 74px;
+  right: 209px;
+  top: 0;
+  background-blend-mode: normal, overlay, normal;
+}
+
+.name {
+  font-family: 'Playfair Display', Roboto, Arial, sans-serif;
+  /*font-weight: 400;*/
+  margin-top: 104px;
+  font-style: normal;
+  font-size: 50px;
+  line-height: 130%;
+  color: #1A2236;
+  text-align: left;
+  vertical-align: top;
+  padding-left: 16px;
+  padding-right: 84px;
+}
+
+.about-me {
+  font-family: Poppins, Roboto, Arial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  size: 14px;
+  line-height: 21px;
+  letter-spacing: normal;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.rectangle-button {
+  width: 288px;
+  height: 50px;
+  top: 390px;
+  left: 16px;
+  background-color: #1A2236;
+}
+
+.rectangle-button h1 {
+  font-family: Poppins, Roboto, Arial, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  padding-top: 12px;
+  padding-left: 16px;
+  left: 58px;
+  top: 402px;
+  line-height: 24px;
+  text-align: center;
+  color: #FFFFFF;
+  vertical-align: middle;
+  padding-right: 16px;
+}
