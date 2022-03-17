@@ -1,27 +1,17 @@
 # Felix Odete's Portfolio
-Description the project.
+The first milestone in the process of creating my portfolio website, I will:
 
-Built With
+set up a new repository and prepare it for development using best practices (e.g. linters).
+build the first 2 sections of the mobile website using the template I chose in Figma.
+
+### Built With
 * HTML, CSS
 
-Live Demo (if available)
-Live Demo Link
+### Live Demo
+https://felixodette.github.io/odete-portfolio/
 
 Getting Started
-This is an example of how you may give instructions on setting up your project locally. Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.
-To get a local copy up and running follow these simple example steps.
-
-Prerequisites
-
-Setup
-
-Install
-
-Usage
-
-Run tests
-
-Deployment
+Click [live demo](https://felixodette.github.io/odete-portfolio/) link to view.
 
 Authors
 👤 Felix Odete
