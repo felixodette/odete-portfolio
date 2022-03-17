@@ -8,8 +8,10 @@
 
 .container {
   width: 325px;
-  justify-content: center;
-  border: 1px solid blue;
+}
+
+.head-container {
+  width: 325px;
 }
 
 .rectangle {
@@ -19,19 +21,15 @@
   margin: 6px 0;
 }
 
-.nav {
-  justify-content: space-between;
-}
-
 .menu-button {
   display: block;
-  top: 31px;
-  right: 10px;
-  padding-right: 10px;
+  padding-left: 274px;
+  padding-top: 13px;
 }
 
 #yellow-triangle {
   position: absolute;
+  left: 0;
   width: 74px;
   height: 74px;
   top: 0;
@@ -42,41 +40,41 @@
   position: absolute;
   width: 74px;
   height: 74px;
-  left: 45px;
+  left: 37px;
   top: 0;
   background-blend-mode: normal, overlay, normal;
 }
 
 .name {
-  font-family: 'Playfair Display', Roboto, Arial, sans-serif;
-  margin-top: 104px;
+  font-family: Playfair Display, Roboto, Arial, sans-serif;
+  font-weight: normal;
   font-style: normal;
   font-size: 50px;
-  line-height: 130%;
+  line-height: 120%;
   color: #1a2236;
   text-align: left;
   vertical-align: top;
-  padding-left: 16px;
-  padding-right: 84px;
+  padding: 20px 84px 0 6px;
 }
 
 .about-me {
   font-family: Poppins, Roboto, Arial, sans-serif;
-  font-weight: 400;
+  font-weight: normal;
   font-style: normal;
   font-size: 14px;
-  line-height: 21px;
-  letter-spacing: normal;
-  padding-left: 16px;
-  padding-right: 16px;
+  line-height: 14px;
+  text-align: left;
+  letter-spacing: unset;
+  margin-top: 20px;
+  padding: 0 16px 20px 16px;
 }
 
 .rectangle-button {
   width: 288px;
   height: 50px;
-  top: 390px;
-  left: 16px;
-  margin-left: 16px;
+  padding-left: 16px;
+  right: 16px;
+  padding-bottom: 0;
   background-color: #1a2236;
 }
 
