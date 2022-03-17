@@ -13,26 +13,26 @@ https://felixodette.github.io/odete-portfolio/
 Getting Started
 Click [live demo](https://felixodette.github.io/odete-portfolio/) link to view.
 
-Authors
+### Authors
 👤 Felix Odete
 * GitHub: @felixodette
 * Twitter: @Odette3000
 * LinkedIn: https://www.linkedin.com/in/felixodete
 
 
-🤝 Contributing
+### 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
 Feel free to check the issues page.
 
-Show your support
+### Show your support
 Give a ⭐️ if you like this project!
 
-Acknowledgments
+### Acknowledgments
 * Hat tip to anyone whose code was used
 * Inspiration
 * etc
 
-📝 License
+### 📝 License
 This project is MIT licensed.
 
 
