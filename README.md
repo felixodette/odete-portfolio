@@ -10,7 +10,7 @@ build the first 2 sections of the mobile website using the template I chose in F
 ### Live Demo
 https://felixodette.github.io/odete-portfolio/
 
-Getting Started
+### Getting Started
 Click [live demo](https://felixodette.github.io/odete-portfolio/) link to view.
 
 ### Authors
