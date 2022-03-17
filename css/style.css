@@ -34,7 +34,6 @@
   position: absolute;
   width: 74px;
   height: 74px;
-  /*right: 246px;*/
   top: 0;
   background-blend-mode: normal, overlay, normal;
 }
@@ -43,7 +42,6 @@
   position: absolute;
   width: 74px;
   height: 74px;
-  /*right: 209px;*/
   left: 45px;
   top: 0;
   background-blend-mode: normal, overlay, normal;
