@@ -45,6 +45,31 @@
   background-blend-mode: normal, overlay, normal;
 }
 
+.yellow-triangle {
+  height: 0px;
+  width: 0px;
+  top: -80px;
+  border-top: 4.3em solid transparent;
+  border-right: 4.3em solid transparent;
+  border-bottom: 4.3em solid #fec25a;
+  border-left: 4.3em solid transparent;
+  position: absolute;
+  left: -80px;
+  rotate: 315deg;
+  background-blend-mode: normal, overlay, normal;
+}
+
+.red-square {
+  position: absolute;
+  width: 74px;
+  height: 74px;
+  left: 38px;
+  top: 14px;
+  background: #e35461;
+  rotate: 45deg;
+  background-blend-mode: normal, overlay, normal;
+}
+
 .name {
   font-family: Playfair Display, Roboto, Arial, sans-serif;
   font-weight: normal;
