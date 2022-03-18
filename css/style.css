@@ -19,7 +19,7 @@
   height: 2px;
   width: 20px;
   background-color: #c4c4c4;
-  margin: 6px 0px;
+  margin: 6px;
 }
 
 .menu-button {
@@ -33,8 +33,7 @@
   width: 74px;
   height: 74px;
   right: 246px;
-  top: 0px;
-  background: linear-gradient(0deg, #feC25A, #feC25A), url("../img/yellow-triangle.png"), #98dede;
+  background: linear-gradient(0deg, #feC25a, #feC25a), url("../img/yellow-triangle.png"), #98dede;
   background-blend-mode: normal, overlay, normal;
 }
 
@@ -43,14 +42,11 @@
   width: 74px;
   height: 74px;
   right: 209px;
-  top: 0px;
   background: linear-gradient(0deg, #e35461, #e35461), url("../img/red-square.png"), #e45865;
   background-blend-mode: normal, overlay, normal;
 }
 
 .yellow-triangle {
-  height: 0px;
-  width: 0px;
   top: -80px;
   border-top: 4.3em solid transparent;
   border-right: 4.3em solid transparent;
