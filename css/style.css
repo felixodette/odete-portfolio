@@ -264,3 +264,284 @@
   left: 157px;
   top: 54.95px;
 }
+
+/* section under macbook image */
+
+.macbook-image {
+  position: absolute;
+  width: 320px;
+  height: 186px;
+  left: 0;
+  top: 1224px;
+  background: url("../img/macbook.svg");
+  border: 0.333333px solid rgba(255, 255, 255, 0.1%);
+}
+
+.project-section-1 {
+  position: absolute;
+  width: 320px;
+  height: 156px;
+  left: 0;
+  top: 1410px;
+  background: #1a2236;
+  border: 0.333333px solid rgba(255, 255, 255, 0.1%);
+  backdrop-filter: blur(1px);
+}
+
+.project-section-1 h2 {
+  width: 264px;
+  height: 16px;
+  padding-left: 20px;
+  font-family: Poppins, Roboto, Arial, sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 80%;
+  color: #fff;
+}
+
+.grid-container-1 {
+  position: absolute;
+  top: 1460px;
+  width: 312px;
+  height: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  padding-left: 12px;
+  grid-gap: 20px;
+  grid-column-gap: 10px;
+}
+
+.see-project-1 img {
+  position: absolute;
+  width: 20.57px;
+  height: 15.35px;
+  left: 157px;
+  top: 54.95px;
+}
+
+/* section under mac-iphone image */
+
+.mac-iphone-image {
+  position: absolute;
+  width: 320px;
+  height: 186px;
+  left: 0;
+  top: 1566px;
+  background: url("../img/mac-iphone.png");
+  border: 0.333333px solid rgba(255, 255, 255, 0.1%);
+}
+
+.project-section-2 {
+  position: absolute;
+  width: 320px;
+  height: 156px;
+  left: 0;
+  top: 1752px;
+  background: #1a2236;
+  border: 0.333333px solid rgba(255, 255, 255, 0.1%);
+  backdrop-filter: blur(1px);
+}
+
+.project-section-2 h2 {
+  width: 264px;
+  height: 16px;
+  padding-left: 20px;
+  font-family: Poppins, Roboto, Arial, sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 80%;
+  color: #fff;
+}
+
+.grid-container-2 {
+  position: absolute;
+  top: 1802px;
+  width: 312px;
+  height: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  padding-left: 12px;
+  grid-gap: 20px;
+  grid-column-gap: 10px;
+}
+
+.see-project-2 img {
+  position: absolute;
+  width: 20.57px;
+  height: 15.35px;
+  left: 157px;
+  top: 54.95px;
+}
+
+/* mac facing right */
+
+.mac-right-image {
+  position: absolute;
+  width: 320px;
+  height: 186px;
+  left: 0;
+  top: 1908px;
+  background: url("../img/mac-right.png");
+  border: 0.333333px solid rgba(255, 255, 255, 0.1%);
+}
+
+.project-section-3 {
+  position: absolute;
+  width: 320px;
+  height: 156px;
+  left: 0;
+  top: 2094px;
+  background: #1a2236;
+  border: 0.333333px solid rgba(255, 255, 255, 0.1%);
+  backdrop-filter: blur(1px);
+}
+
+.project-section-3 h2 {
+  width: 264px;
+  height: 16px;
+  padding-left: 20px;
+  font-family: Poppins, Roboto, Arial, sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 80%;
+  color: #fff;
+}
+
+.grid-container-3 {
+  position: absolute;
+  top: 2134px;
+  width: 312px;
+  height: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  padding-left: 12px;
+  grid-gap: 20px;
+  grid-column-gap: 10px;
+}
+
+.see-project-3 img {
+  position: absolute;
+  width: 20.57px;
+  height: 15.35px;
+  left: 157px;
+  top: 54.95px;
+}
+
+/* mac facing left */
+
+.mac-left-image {
+  position: absolute;
+  width: 320px;
+  height: 186px;
+  left: 0;
+  top: 2250px;
+  background: url("../img/mac-left-image.png");
+  border: 0.333333px solid rgba(255, 255, 255, 0.1%);
+}
+
+.project-section-4 {
+  position: absolute;
+  width: 320px;
+  height: 156px;
+  left: 0;
+  top: 2436px;
+  background: #1a2236;
+  border: 0.333333px solid rgba(255, 255, 255, 0.1%);
+  backdrop-filter: blur(1px);
+}
+
+.project-section-4 h2 {
+  width: 264px;
+  height: 16px;
+  padding-left: 20px;
+  font-family: Poppins, Roboto, Arial, sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 80%;
+  color: #fff;
+}
+
+.grid-container-4 {
+  position: absolute;
+  top: 2486px;
+  width: 312px;
+  height: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  padding-left: 12px;
+  grid-gap: 20px;
+  grid-column-gap: 10px;
+}
+
+.see-project-4 img {
+  position: absolute;
+  width: 20.57px;
+  height: 15.35px;
+  left: 157px;
+  top: 54.95px;
+}
+
+/* mac with pink screen */
+
+.mac-pink {
+  position: absolute;
+  width: 320px;
+  height: 186px;
+  left: 0;
+  top: 2592px;
+  background: url("../img/mac-pink.png");
+  border: 0.333333px solid rgba(255, 255, 255, 0.1%);
+}
+
+.project-section-5 {
+  position: absolute;
+  width: 320px;
+  height: 156px;
+  left: 0;
+  top: 2778px;
+  background: #1a2236;
+  border: 0.333333px solid rgba(255, 255, 255, 0.1%);
+  backdrop-filter: blur(1px);
+}
+
+.project-section-5 h2 {
+  width: 264px;
+  height: 16px;
+  padding-left: 20px;
+  font-family: Poppins, Roboto, Arial, sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 80%;
+  color: #fff;
+}
+
+.grid-container-5 {
+  position: absolute;
+  top: 2828px;
+  width: 312px;
+  height: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  padding-left: 12px;
+  grid-gap: 20px;
+  grid-column-gap: 10px;
+}
+
+.see-project-5 img {
+  position: absolute;
+  width: 20.57px;
+  height: 15.35px;
+  left: 157px;
+  top: 54.95px;
+}
+
