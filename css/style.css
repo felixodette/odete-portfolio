@@ -1,5 +1,6 @@
-.flex-box {
+.flex-container {
   display: flex;
+  flex-direction: column;
 }
 
 .body {
@@ -29,10 +30,12 @@
 
 #yellow-triangle {
   position: absolute;
-  left: 0;
   width: 74px;
   height: 74px;
-  top: 0;
+  right: 246px;
+  top: 0px;
+
+  background: linear-gradient(0deg, #FEC25A, #FEC25A), url("../img/yellow-triangle.png"), #98DEDE;
   background-blend-mode: normal, overlay, normal;
 }
 
@@ -40,8 +43,9 @@
   position: absolute;
   width: 74px;
   height: 74px;
-  left: 37px;
-  top: 0;
+  right: 209px;
+  top: 0px;
+  background: linear-gradient(0deg, #E35461, #E35461), url("../img/red-square.png"), #E45865;
   background-blend-mode: normal, overlay, normal;
 }
 
@@ -72,49 +76,47 @@
 
 .name {
   font-family: Playfair Display, Roboto, Arial, sans-serif;
-  font-weight: normal;
+  position: absolute;
+  width: 220px;
+  height: 100px;
+  left: 16px;
+  top: 104px;
   font-style: normal;
+  font-weight: 400;
   font-size: 50px;
-  line-height: 120%;
-  color: #1a2236;
-  text-align: left;
-  vertical-align: top;
-  padding: 20px 84px 0 6px;
+  line-height: 100%;
+  color: #1A2236;
 }
 
 .about-me {
   font-family: Poppins, Roboto, Arial, sans-serif;
-  font-weight: normal;
+  position: absolute;
+  width: 288px;
+  height: 126px;
+  left: 16px;
+  top: 294px;
   font-style: normal;
+  font-weight: 400;
   font-size: 14px;
-  line-height: 14px;
-  text-align: left;
-  letter-spacing: unset;
-  margin-top: 20px;
-  padding: 0 16px 20px 16px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  color: #1A2236;
 }
 
 .rectangle-button {
+  position: absolute;
   width: 288px;
   height: 50px;
-  padding-left: 16px;
-  right: 16px;
-  padding-bottom: 0;
-  background-color: #1a2236;
+  left: 16px;
+  top: 490px;
+  background: #1A2236;
 }
 
 .rectangle-button h1 {
+  color: #fff;
   font-family: Poppins, Roboto, Arial, sans-serif;
   font-weight: 500;
-  font-style: normal;
   font-size: 16px;
-  padding-top: 12px;
-  padding-left: 16px;
-  left: 58px;
-  top: 402px;
   line-height: 24px;
   text-align: center;
-  color: #fff;
-  vertical-align: middle;
-  padding-right: 16px;
 }
