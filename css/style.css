@@ -154,3 +154,94 @@
   background: url("../img/computer.png");
   border: 0.333333px solid rgba(255, 255, 255, 0.1%);
 }
+
+.project-section {
+  position: absolute;
+  width: 320px;
+  height: 156px;
+  left: 0;
+  top: 1068px;
+  background: #1a2236;
+  border: 0.333333px solid rgba(255, 255, 255, 0.1%);
+  backdrop-filter: blur(1px);
+}
+
+.project-section h2 {
+  /*position: absolute;*/
+  width: 264px;
+  height: 16px;
+  padding-left: 20px;
+  /*top: 1088px;*/
+  font-family: Poppins, Roboto, Arial, sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 80%;
+  color: #fff;
+}
+
+.grid-container {
+  position: absolute;
+  top: 1118px;
+  width: 312px;
+  height: 30px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto;
+  padding-left: 12px;
+  grid-gap: 5px;
+}
+
+.html-css-rectangle {
+  /*position: absolute;*/
+  /*top: 1120px;*/
+  width: 69px;
+  height: 20px;
+  /*left: 20px;*/
+  background: #98dede;
+}
+
+.html-css-rectangle p {
+  font-family: Poppins, Roboto, Arial, sans-serif;
+  width: 49px;
+  height: 8px;
+  margin: 6px 10px 6px 10px;
+  font-size: 10.3334px;
+  line-height: 80%;
+  color: #1a2236;
+}
+
+.ruby-rails-rectangle {
+  /*position: absolute;*/
+  width: 87px;
+  height: 20px;
+  background: #98dede;
+  /*left: 99px;*/
+  /*top: 1120px;*/
+}
+
+.ruby-rails-rectangle p {
+  font-family: Poppins, Roboto, Arial, sans-serif;
+  width: 70px;
+  height: 8px;
+  margin: 6px 10px 6px 10px;
+  font-size: 10.3334px;
+  line-height: 80%;
+  color: #1a2236;
+}
+
+.javascript-rectangle {
+  width: 74px;
+  height: 20px;
+  background: #98dede;
+}
+
+.javascript-rectangle p {
+  font-family: Poppins, Roboto, Arial, sans-serif;
+  width: 54px;
+  height: 8px;
+  margin: 6px 10px 6px 10px;
+  font-size: 10.3334px;
+  line-height: 80%;
+  color: #1a2236;
+}
