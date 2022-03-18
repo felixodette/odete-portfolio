@@ -35,7 +35,7 @@
   right: 246px;
   top: 0px;
 
-  background: linear-gradient(0deg, #FEC25A, #FEC25A), url("../img/yellow-triangle.png"), #98DEDE;
+  background: linear-gradient(0deg, #feC25A, #feC25A), url("../img/yellow-triangle.png"), #98dede;
   background-blend-mode: normal, overlay, normal;
 }
 
@@ -45,7 +45,7 @@
   height: 74px;
   right: 209px;
   top: 0px;
-  background: linear-gradient(0deg, #E35461, #E35461), url("../img/red-square.png"), #E45865;
+  background: linear-gradient(0deg, #e35461, #e35461), url("../img/red-square.png"), #e45865;
   background-blend-mode: normal, overlay, normal;
 }
 
@@ -85,7 +85,7 @@
   font-weight: 400;
   font-size: 50px;
   line-height: 120%;
-  color: #1A2236;
+  color: #1a2236;
 }
 
 .about-me {
@@ -100,7 +100,7 @@
   font-size: 14px;
   line-height: 21px;
   letter-spacing: -0.01em;
-  color: #1A2236;
+  color: #1a2236;
 }
 
 .rectangle-button {
@@ -109,7 +109,7 @@
   height: 50px;
   left: 16px;
   top: 490px;
-  background: #1A2236;
+  background: #1a2236;
 }
 
 .rectangle-button h1 {
@@ -120,8 +120,6 @@
   line-height: 24px;
   text-align: center;
 }
-
-/*middle-image*/
 
 .middle-image {
   position: absolute;
