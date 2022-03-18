@@ -120,3 +120,37 @@
   line-height: 24px;
   text-align: center;
 }
+
+/*middle-image*/
+
+.middle-image {
+  position: absolute;
+  background: url("../img/middle-section.png");
+  width: 320px;
+  height: 160px;
+  left: 0;
+  top: 582px;
+}
+
+.projects {
+  position: absolute;
+  top: 742px;
+  width: 181px;
+  height: 50px;
+  left: 16px;
+  font-family: Playfair Display, Roboto, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 100%;
+  color: #1a2236;
+}
+
+.computer-image {
+  position: absolute;
+  width: 320px;
+  height: 186px;
+  left: 0;
+  top: 882px;
+  background: url("../img/computer.png");
+  border: 0.333333px solid rgba(255, 255, 255, 0.1%);
+}
