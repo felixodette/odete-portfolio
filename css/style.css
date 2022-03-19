@@ -649,3 +649,20 @@
   letter-spacing: -0.0525em;
   color: #fff;
 }
+
+.down-arrow {
+  position: absolute;
+  width: 13.32px;
+  height: 17.79px;
+  left: 206px;
+  top: 13px;
+}
+
+.bucket {
+  position: absolute;
+  width: 24px;
+  height: 18px;
+  left: 201px;
+  top: 19px;
+  box-sizing: border-box;
+}
