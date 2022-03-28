@@ -313,7 +313,7 @@
   top: 1460px;
   width: 312px;
   height: 30px;
-  display: grid;
+  display: inline-block;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
   padding-left: 12px;
@@ -326,7 +326,7 @@
   width: 20.57px;
   height: 15.35px;
   left: 157px;
-  top: 54.95px;
+  top: 44.95px;
 }
 
 /* section under mac-iphone image */
@@ -369,7 +369,7 @@
   top: 1802px;
   width: 312px;
   height: 30px;
-  display: grid;
+  display: inline-block;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
   padding-left: 12px;
@@ -382,7 +382,7 @@
   width: 20.57px;
   height: 15.35px;
   left: 157px;
-  top: 54.95px;
+  top: 44.95px;
 }
 
 /* mac facing right */
@@ -425,7 +425,7 @@
   top: 2134px;
   width: 312px;
   height: 30px;
-  display: grid;
+  display: inline-block;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
   padding-left: 12px;
@@ -438,7 +438,7 @@
   width: 20.57px;
   height: 15.35px;
   left: 157px;
-  top: 54.95px;
+  top: 44.95px;
 }
 
 /* mac facing left */
@@ -481,7 +481,7 @@
   top: 2486px;
   width: 312px;
   height: 30px;
-  display: grid;
+  display: inline-block;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
   padding-left: 12px;
@@ -494,7 +494,7 @@
   width: 20.57px;
   height: 15.35px;
   left: 157px;
-  top: 54.95px;
+  top: 44.95px;
 }
 
 /* mac with pink screen */
@@ -537,7 +537,7 @@
   top: 2828px;
   width: 312px;
   height: 30px;
-  display: grid;
+  display: inline-block;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
   padding-left: 12px;
@@ -550,7 +550,7 @@
   width: 20.57px;
   height: 15.35px;
   left: 157px;
-  top: 54.95px;
+  top: 44.95px;
 }
 
 /* About section */
