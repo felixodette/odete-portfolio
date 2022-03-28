@@ -33,7 +33,8 @@
   width: 74px;
   height: 74px;
   right: 246px;
-  background: linear-gradient(0deg, #fec25a, #fec25a), url("../img/yellow-triangle.png"), #98dede;
+  background: linear-gradient(0deg, #fec25a, #fec25a),
+    url("../img/yellow-triangle.png"), #98dede;
   background-blend-mode: normal, overlay, normal;
 }
 
@@ -42,7 +43,8 @@
   width: 74px;
   height: 74px;
   right: 209px;
-  background: linear-gradient(0deg, #e35461, #e35461), url("../img/red-square.png"), #e45865;
+  background: linear-gradient(0deg, #e35461, #e35461),
+    url("../img/red-square.png"), #e45865;
   background-blend-mode: normal, overlay, normal;
 }
 
@@ -206,6 +208,7 @@
   width: 87px;
   height: 20px;
   background: #98dede;
+  margin-left: 10px;
 }
 
 .ruby-rails-rectangle p {
@@ -223,6 +226,7 @@
   width: 74px;
   height: 20px;
   background: #98dede;
+  margin-left: 10px;
 }
 
 .javascript-rectangle p {
@@ -243,6 +247,7 @@
   height: 44px;
   left: 20px;
   border: 1px solid #fff;
+  margin-top: 30px;
 }
 
 .see-project h3 {
@@ -265,7 +270,7 @@
   width: 20.57px;
   height: 15.35px;
   left: 157px;
-  top: 54.95px;
+  top: 44.95px;
 }
 
 /* section under macbook image */
@@ -707,7 +712,7 @@ Getting started
   height: 50px;
   left: 16px;
   top: 106px;
-  font-family: 'Playfair Display', Roboto, sans-serif;
+  font-family: "Playfair Display", Roboto, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 50px;
