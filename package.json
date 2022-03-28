@@ -1,0 +1,23 @@
+{
+  "name": "odete-portfolio",
+  "version": "1.0.0",
+  "description": "The first milestone in the process of creating my portfolio website, I will:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felixodette/odete-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felixodette/odete-portfolio/issues"
+  },
+  "homepage": "https://github.com/felixodette/odete-portfolio#readme",
+  "devDependencies": {
+    "hint": "^6.1.10"
+  }
+}
