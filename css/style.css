@@ -623,6 +623,7 @@
   left: 16px;
   top: 3910px;
   background: #febf52;
+  margin-bottom: 50px;
 }
 
 .languages {
@@ -665,4 +666,63 @@
   left: 201px;
   top: 19px;
   box-sizing: border-box;
+}
+
+/*===========================
+Getting started
+===========================
+*/
+
+.get-started {
+  position: absolute;
+  width: 320px;
+  height: 813px;
+  left: -2px;
+  top: 4229px;
+  background: #f9f9fa;
+}
+
+.yellow-get-started {
+  position: absolute;
+  width: 74px;
+  height: 74.02px;
+  right: 246px;
+  /*top: 4129px;*/
+}
+
+.red-get-started {
+  position: absolute;
+  width: 74px;
+  height: 74.02px;
+  right: 209px;
+  /*top: 4129px;*/
+}
+
+.get-started h2 {
+  position: absolute;
+  width: 259px;
+  height: 50px;
+  left: 16px;
+  top: 106px;
+  font-family: 'Playfair Display', Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 100%;
+  color: #1a2236;
+}
+
+.get-started article {
+  position: absolute;
+  width: 288px;
+  height: 63px;
+  left: 16px;
+  top: 226px;
+  font-family: Poppins, Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  color: #1a2236;
 }
