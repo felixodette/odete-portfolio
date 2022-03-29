@@ -5,11 +5,12 @@
     <link href="css/style.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Felix Odete's Portfolio</title>
     <meta content="width=device-width, initial-scale=1" name="viewport">
 </head>
 <body>
-<header class="head-container">
+    <header class="head-container">
     <a class="home-logo" href="#">
         <div class="logo">
             <div class="yellow-triangle"></div>
@@ -178,6 +179,7 @@
             </a>
         </div>
         <div class="blue-container">
+            <img src="img/pound.svg" alt="Pound">
             <div class="languages">
                 <h4>Languages</h4>
             </div>
@@ -191,6 +193,8 @@
             </div>
         </div>
         <div class="red-container">
+            <img src="img/Rectangle%2018.png" alt="" id="framework-box">
+            <img src="img/Rectangle%2019.svg" alt="" id="framework-diamond">
             <div class="languages">
                 <h4>Frameworks</h4>
             </div>
@@ -205,6 +209,7 @@
             </div>
         </div>
         <div class="yellow-container">
+            <img src="img/ic_skills.svg" alt="">
             <div class="languages">
                 <h4>Skills</h4>
             </div>
@@ -218,6 +223,40 @@
                 </ul>
             </div>
         </div>
+        <div class="get-started">
+            <img src="img/yellow-triangle-getting-started.svg" alt="" class="yellow-get-started">
+            <img src="img/red-square-getting-started.svg" alt="" class="red-get-started">
+            <h2>Get started</h2>
+            <article>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.
+            </article>
+            <div class="form-text">
+                <p id="form-name" class="form-details">Your name</p>
+                <p id="form-email" class="form-details">Your email</p>
+                <p id="form-text" class="form-details">Enter your message here...</p>
+            </div>
+            <form action="https://formspree.io/f/xzboarvz" method="post">
+                <ul>
+                    <li><input type="text" required maxlength="30"></li>
+                    <li><input type="email" required maxlength="50"></li>
+                    <li><textarea name="textarea" cols="30" rows="10" required maxlength="500"></textarea></li>
+                    <li><button type="submit" class="btn-get-started">Start collaboration</button></li>
+                </ul>
+            </form>
+        </div>
     </main>
+    <footer>
+        <h3>Get my Resume</h3>
+        <img src="img/Rectangle%2015.png" alt="" id="resume-box"> /* use as css */
+        <span class="material-icons">open_in_new</span>
+        <div class="social-icons">
+            <img src="img/stackoverflow-24.png" alt="">
+            <img src="img/github.svg" alt="" id="github">
+            <img src="img/twitter.svg" alt="" id="twitter">
+            <img src="img/linkedin.svg" alt="" id="linkedin">
+            <img src="img/medium.svg" alt="" id="medium">
+            <img src="img/two-fingers.svg" alt="" id="two-fingers">
+        </div>
+    </footer>
 </body>
 </html>

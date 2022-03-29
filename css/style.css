@@ -5,14 +5,15 @@
 
 .body {
   background-color: #e5e5e5;
+  width: 320px;
 }
 
 .container {
-  width: 325px;
+  width: 320px;
 }
 
 .head-container {
-  width: 325px;
+  width: 320px;
 }
 
 .rectangle {
@@ -70,7 +71,7 @@
 }
 
 .name {
-  font-family: Playfair Display, Roboto, Arial, sans-serif;
+  font-family: "Playfair Display", Roboto, Arial, sans-serif;
   position: absolute;
   width: 220px;
   height: 100px;
@@ -131,7 +132,7 @@
   width: 181px;
   height: 50px;
   left: 16px;
-  font-family: Playfair Display, Roboto, Arial, sans-serif;
+  font-family: "Playfair Display", Roboto, Arial, sans-serif;
   font-weight: 400;
   font-size: 50px;
   line-height: 100%;
@@ -145,7 +146,7 @@
   left: 0;
   top: 882px;
   background: url("../img/computer.png");
-  border: 0.333333px solid rgba(255, 255, 255, 0.1%);
+  border: 0.3333px solid rgb(255 255 255 / 0.1%);
 }
 
 .project-section {
@@ -155,7 +156,7 @@
   left: 0;
   top: 1068px;
   background: #1a2236;
-  border: 0.333333px solid rgba(255, 255, 255, 0.1%);
+  border: 0.3333px solid rgb(255 255 255 / 0.1%);
   backdrop-filter: blur(1px);
 }
 
@@ -194,7 +195,7 @@
   font-family: Poppins, Roboto, Arial, sans-serif;
   width: 49px;
   height: 8px;
-  margin: 6px 10px 6px 10px;
+  margin: 6px 10px;
   font-size: 10.3334px;
   line-height: 80%;
   color: #1a2236;
@@ -210,7 +211,7 @@
   font-family: Poppins, Roboto, Arial, sans-serif;
   width: 70px;
   height: 8px;
-  margin: 6px 10px 6px 10px;
+  margin: 6px 10px;
   font-size: 10.3334px;
   line-height: 80%;
   color: #1a2236;
@@ -226,7 +227,7 @@
   font-family: Poppins, Roboto, Arial, sans-serif;
   width: 54px;
   height: 8px;
-  margin: 6px 10px 6px 10px;
+  margin: 6px 10px;
   font-size: 10.3334px;
   line-height: 80%;
   color: #1a2236;
@@ -240,6 +241,20 @@
   height: 44px;
   left: 20px;
   border: 1px solid #fff;
+}
+
+footer h3 {
+  position: absolute;
+  width: 127px;
+  height: 24px;
+  top: 25px;
+  left: 16px;
+  font-family: Poppins, Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #92dcdc;
 }
 
 .see-project h3 {
@@ -274,7 +289,7 @@
   left: 0;
   top: 1224px;
   background: url("../img/macbook.svg");
-  border: 0.333333px solid rgba(255, 255, 255, 0.1%);
+  border: 0.3333px solid rgb(255 255 255 / 0.1%);
 }
 
 .project-section-1 {
@@ -284,7 +299,7 @@
   left: 0;
   top: 1410px;
   background: #1a2236;
-  border: 0.333333px solid rgba(255, 255, 255, 0.1%);
+  border: 0.3333px solid rgb(255 255 255 / 0.1%);
   backdrop-filter: blur(1px);
 }
 
@@ -330,7 +345,7 @@
   left: 0;
   top: 1566px;
   background: url("../img/mac-iphone.png");
-  border: 0.333333px solid rgba(255, 255, 255, 0.1%);
+  border: 0.3333px solid rgb(255 255 255 / 0.1%);
 }
 
 .project-section-2 {
@@ -340,7 +355,7 @@
   left: 0;
   top: 1752px;
   background: #1a2236;
-  border: 0.333333px solid rgba(255, 255, 255, 0.1%);
+  border: 0.3333px solid rgb(255 255 255 / 0.1%);
   backdrop-filter: blur(1px);
 }
 
@@ -386,7 +401,7 @@
   left: 0;
   top: 1908px;
   background: url("../img/mac-right.png");
-  border: 0.333333px solid rgba(255, 255, 255, 0.1%);
+  border: 0.3333px solid rgb(255 255 255 / 0.1%);
 }
 
 .project-section-3 {
@@ -396,7 +411,7 @@
   left: 0;
   top: 2094px;
   background: #1a2236;
-  border: 0.333333px solid rgba(255, 255, 255, 0.1%);
+  border: 0.3333px solid rgb(255 255 255 / 0.1%);
   backdrop-filter: blur(1px);
 }
 
@@ -442,7 +457,7 @@
   left: 0;
   top: 2250px;
   background: url("../img/mac-left-image.png");
-  border: 0.333333px solid rgba(255, 255, 255, 0.1%);
+  border: 0.3333px solid rgb(255 255 255 / 0.1%);
 }
 
 .project-section-4 {
@@ -452,7 +467,7 @@
   left: 0;
   top: 2436px;
   background: #1a2236;
-  border: 0.333333px solid rgba(255, 255, 255, 0.1%);
+  border: 0.3333px solid rgb(255 255 255 / 0.1%);
   backdrop-filter: blur(1px);
 }
 
@@ -498,7 +513,7 @@
   left: 0;
   top: 2592px;
   background: url("../img/mac-pink.png");
-  border: 0.333333px solid rgba(255, 255, 255, 0.1%);
+  border: 0.3333px solid rgb(255 255 255 / 0.1%);
 }
 
 .project-section-5 {
@@ -508,7 +523,7 @@
   left: 0;
   top: 2778px;
   background: #1a2236;
-  border: 0.333333px solid rgba(255, 255, 255, 0.1%);
+  border: 0.3333px solid rgb(255 255 255 / 0.1%);
   backdrop-filter: blur(1px);
 }
 
@@ -553,7 +568,7 @@
 }
 
 .about {
-  font-family: Playfair Display, Roboto, Arial, sans-serif;
+  font-family: "Playfair Display", Roboto, Arial, sans-serif;
   position: absolute;
   width: 134px;
   height: 50px;
@@ -607,6 +622,14 @@
   background: #1c528a;
 }
 
+.blue-container img {
+  position: absolute;
+  width: 102px;
+  height: 102px;
+  left: 187px;
+  top: 187px;
+}
+
 .red-container {
   position: absolute;
   width: 289px;
@@ -616,6 +639,22 @@
   background: #e2505c;
 }
 
+.red-container #framework-box {
+  position: absolute;
+  width: 102.22px;
+  height: 102.22px;
+  left: 187.62px;
+  top: 187px;
+}
+
+.red-container #framework-diamond {
+  position: absolute;
+  width: 101.28px;
+  height: 101.28px;
+  left: 189.73px;
+  top: 190px;
+}
+
 .yellow-container {
   position: absolute;
   width: 289px;
@@ -623,6 +662,15 @@
   left: 16px;
   top: 3910px;
   background: #febf52;
+  margin-bottom: 50px;
+}
+
+.yellow-container img {
+  position: absolute;
+  width: 102px;
+  height: 102px;
+  left: 185px;
+  top: 187px;
 }
 
 .languages {
@@ -665,4 +713,190 @@
   left: 201px;
   top: 19px;
   box-sizing: border-box;
+}
+
+/* ===========================
+Getting started
+===========================
+*/
+
+.get-started {
+  position: absolute;
+  width: 100%;
+  height: 813px;
+  left: -2px;
+  top: 4229px;
+  background: #f9f9fa;
+}
+
+.yellow-get-started {
+  position: absolute;
+  width: 74px;
+  height: 74.02px;
+  right: 246px;
+
+  /* top: 4129px; */
+}
+
+.red-get-started {
+  position: absolute;
+  width: 74px;
+  height: 74.02px;
+  right: 209px;
+
+  /* top: 4129px; */
+}
+
+.get-started h2 {
+  position: absolute;
+  width: 259px;
+  height: 50px;
+  left: 16px;
+  top: 106px;
+  font-family: "Playfair Display", Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 100%;
+  color: #1a2236;
+}
+
+.get-started article {
+  position: absolute;
+  width: 288px;
+  height: 63px;
+  left: 16px;
+  top: 226px;
+  font-family: Poppins, Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  color: #1a2236;
+}
+
+.get-started form {
+  position: absolute;
+  width: 288px;
+
+  /* height: 52px; */
+  left: 16px;
+  top: 311px;
+
+  /* background: #fff; */
+
+  /* border: 1px solid #dfdfe0; */
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin: 0 auto;
+}
+
+input,
+textarea {
+  width: 278px;
+  margin-top: 8px;
+}
+
+textarea {
+  padding-top: 30px;
+}
+
+input {
+  height: 32px;
+  padding-top: 20px;
+}
+
+.get-started ul {
+  list-style-type: none;
+  width: 288px;
+  padding: 8px;
+  margin: 0;
+}
+
+.btn-get-started {
+  background: #1a2236;
+  color: #fff;
+  width: 288px;
+  height: 44px;
+  left: 16px;
+  font-family: Poppins, Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  margin-top: 20px;
+  border-style: none;
+}
+
+.btn-get-started:hover,
+.btn-get-started:active {
+  cursor: pointer;
+}
+
+.form-details {
+  position: absolute;
+  width: 55px;
+  height: 15px;
+  font-family: Poppins, Roboto, sans-serif;
+  left: 27px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 15px;
+  color: #7d7c84;
+}
+
+#form-name {
+  top: 320px;
+  z-index: 1;
+  font-size: 10px;
+}
+
+#form-email {
+  top: 385px;
+  z-index: 1;
+  font-size: 10px;
+}
+
+#form-text {
+  top: 450px;
+  z-index: 1;
+  width: 190px;
+  font-size: 14px;
+}
+
+/* Footer section */
+
+footer {
+  position: absolute;
+  width: 320px;
+  height: 150px;
+  left: 0;
+  top: 5000px;
+  background: #1a2236;
+}
+
+.material-icons {
+  position: absolute;
+  width: 15.84px;
+  height: 15.84px;
+  left: 150px;
+  top: 40px;
+  color: #92dcdc;
+}
+
+.social-icons {
+  position: relative;
+  display: inline-flex;
+  top: 72px;
+  bottom: 15.5px;
+  margin-left: 15px;
+  float: left;
+}
+
+.social-icons > img {
+  padding-right: 25px;
+  float: left;
 }
