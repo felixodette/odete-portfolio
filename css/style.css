@@ -242,6 +242,20 @@
   border: 1px solid #fff;
 }
 
+footer h3 {
+  position: absolute;
+  width: 127px;
+  height: 24px;
+  top: 25px;
+  left: 16px;
+  font-family: Poppins, Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #92dcdc;
+}
+
 .see-project h3 {
   width: 124px;
   height: 24px;
@@ -830,17 +844,20 @@ input {
 #form-name {
   top: 320px;
   z-index: 1;
+  font-size: 10px;
 }
 
 #form-email {
   top: 385px;
   z-index: 1;
+  font-size: 10px;
 }
 
 #form-text {
   top: 450px;
   z-index: 1;
-  width: 160px;
+  width: 190px;
+  font-size: 14px;
 }
 
 /* Footer section */
@@ -852,20 +869,6 @@ footer {
   left: 0;
   top: 5000px;
   background: #1a2236;
-}
-
-footer h3 {
-  position: absolute;
-  width: 127px;
-  height: 24px;
-  top: 25px;
-  left: 16px;
-  font-family: Poppins, Roboto, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  color: #92dcdc;
 }
 
 .material-icons {
