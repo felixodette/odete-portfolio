@@ -5,14 +5,15 @@
 
 .body {
   background-color: #e5e5e5;
+  width: 320px;
 }
 
 .container {
-  width: 325px;
+  width: 320px;
 }
 
 .head-container {
-  width: 325px;
+  width: 320px;
 }
 
 .rectangle {
@@ -780,7 +781,7 @@ Getting started
   width: 288px;
 
   /* height: 52px; */
-  left: 10px;
+  left: 16px;
   top: 311px;
 
   /* background: #fff; */
@@ -818,7 +819,7 @@ input {
   color: #fff;
   width: 288px;
   height: 44px;
-  left: -6px;
+  left: 16px;
   font-family: Poppins, Roboto, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -826,6 +827,12 @@ input {
   line-height: 24px;
   text-align: center;
   margin-top: 20px;
+  border-style: none;
+}
+
+.btn-get-started:hover,
+.btn-get-started:active {
+  cursor: pointer;
 }
 
 .form-details {
