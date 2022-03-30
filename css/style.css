@@ -5,15 +5,16 @@
 
 .body {
   background-color: #e5e5e5;
-  width: 320px;
+
+  /* width: 320px; */
 }
 
 .container {
-  width: 320px;
+  /* width: 320px; */
 }
 
 .head-container {
-  width: 320px;
+  /* width: 320px; */
 }
 
 .rectangle {
@@ -24,18 +25,21 @@
 }
 
 .menu-button {
+  position: absolute;
   display: block;
   padding-left: 274px;
   padding-top: 13px;
+  z-index: 2;
 }
 
 #yellow-triangle {
-  position: absolute;
+  position: relative;
   width: 74px;
   height: 74px;
   right: 246px;
   background: linear-gradient(0deg, #fec25a, #fec25a), url("../img/yellow-triangle.png"), #98dede;
   background-blend-mode: normal, overlay, normal;
+  z-index: 3;
 }
 
 #red-square {
@@ -45,6 +49,7 @@
   right: 209px;
   background: linear-gradient(0deg, #e35461, #e35461), url("../img/red-square.png"), #e45865;
   background-blend-mode: normal, overlay, normal;
+  z-index: 4;
 }
 
 .yellow-triangle {
@@ -125,6 +130,12 @@
   left: 0;
   top: 582px;
 }
+
+/* .side-image { */
+
+/*  display: none; */
+
+/* } */
 
 .projects {
   position: absolute;
@@ -722,7 +733,7 @@ Getting started
 
 .get-started {
   position: absolute;
-  width: 100%;
+  width: 320px;
   height: 813px;
   left: -2px;
   top: 4229px;
@@ -899,4 +910,360 @@ footer {
 .social-icons > img {
   padding-right: 25px;
   float: left;
+}
+
+/*
+===========================
+Desktop Site
+===========================
+*/
+
+@media (max-width: 768px) {
+  .desktop-nav {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    width: 1440px;
+    height: 4872px;
+  }
+
+  .menu-button,
+  .logo,
+  .project-section-1,
+  .computer-image,
+  .grid-container-1,
+  .project-section-2,
+  .grid-container-2,
+  .project-section-4,
+  .grid-container-4,
+  .mac-pink,
+  .project-section-5,
+  .grid-container-5,
+  .middle-image,
+  .yellow-get-started,
+  .red-get-started {
+    display: none;
+  }
+
+  .desktop-nav {
+    position: absolute;
+    display: inline-flex;
+    align-items: center;
+    gap: 50px;
+    width: 1440px;
+    height: 100px;
+    left: 0;
+    top: 0;
+    vertical-align: center;
+    background-color: #fff;
+    box-shadow: 0 0.5px 0 #dddfe6;
+    justify-content: center;
+  }
+
+  .desktop-nav > a {
+    text-decoration: none;
+    font-family: Poppins, Roboto, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  hr {
+    width: 29px;
+    height: 2px;
+    top: 62px;
+    background: #1a2236;
+    transition: 0.3s ease-in-out;
+  }
+
+  .link-hello:active ~ hr {
+    margin-left: 25%;
+    z-index: 4;
+  }
+
+  /*.image-dots {*/
+  /*  position: absolute;*/
+  /*  width: 175px;*/
+  /*  height: 175px;*/
+  /*  left: 315px;*/
+  /*  top: 802px;*/
+  /*  background-image: url("../img/desktop/image_dots.svg");*/
+  /*}*/
+
+  .image-dots-top {
+    position: relative;
+    top: 802px;
+    left: 532px;
+    height: 172px;
+    width: 172px;
+    background-image: url("../img/desktop/image_dots.png");
+  }
+
+  .image-geometry-2 {
+    position: absolute;
+    width: 511px;
+    height: 350px;
+    left: 464px;
+    top: 1745px;
+    z-index: 1;
+    background: url("../img/desktop/image-geometry_2.png");
+  }
+
+  .name {
+    position: absolute;
+    width: 484px;
+    height: 220px;
+    left: 148px;
+    top: 112px;
+    font-family: "Playfair Display", Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 110px;
+    line-height: 130%;
+    color: #1a2236;
+  }
+
+  .about-me {
+    position: absolute;
+    width: 484px;
+    height: 84px;
+    left: 160px;
+    top: 572px;
+  }
+
+  .rectangle-button {
+    position: absolute;
+    left: 160px;
+    top: 715px;
+  }
+
+  .side-image {
+    position: absolute;
+    background: url("../img/desktop/image-geometry_1.svg");
+    width: 702px;
+    height: 877px;
+    left: 738px;
+    top: 100px;
+  }
+
+  .projects {
+    position: absolute;
+    width: 380px;
+    height: 110px;
+    left: 78px;
+    top: 1189px;
+    font-size: 90px;
+    line-height: 100%;
+    transform: rotate(-90deg);
+  }
+
+  .large-computer-image {
+    position: absolute;
+    background: url("../img/desktop/Rectangle 21.png") no-repeat;
+    width: 960px;
+    height: 558px;
+    left: 480px;
+    top: 1187px;
+  }
+
+  .project-section {
+    position: absolute;
+    width: 960px;
+    height: 353px;
+    left: 480px;
+    top: 1392px;
+    background: rgb(26 34 54 / 95%);
+    backdrop-filter: blur(24px);
+  }
+
+  .project-section h2 {
+    width: 786px;
+    height: 48px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 80%;
+  }
+
+  .grid-container {
+    position: absolute;
+    width: 132px;
+    height: 40px;
+    left: 540px;
+    top: 1534px;
+  }
+
+  .html-css-rectangle,
+  .ruby-rails-rectangle,
+  .javascript-rectangle {
+    width: 132px;
+    height: 48px;
+  }
+
+  .grid-container p {
+    width: 94px;
+    height: 16px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 80%;
+    margin: 6px 10px;
+  }
+
+  .macbook-image {
+    background: url("../img/desktop/Rectangle 27.png");
+    position: absolute;
+    width: 800px;
+    height: 465px;
+    left: 0;
+    top: 2095px;
+    border: 1px solid rgb(255 255 255 / 10%);
+  }
+
+  .img-dots {
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    left: 323px;
+    top: 1187px;
+    z-index: 999;
+  }
+
+  .mac-right-image {
+    position: absolute;
+    width: 465px;
+    height: 270px;
+    left: 799px;
+    top: 2560px;
+    background: url("../img/desktop/Rectangle 47.svg");
+  }
+
+  .mac-iphone-image {
+    position: absolute;
+    width: 465px;
+    height: 270px;
+    left: 0;
+    top: 1825px;
+    background: url("../img/desktop/Rectangle 46.svg");
+  }
+
+  .project-section-3 {
+    position: absolute;
+    width: 465px;
+    height: 218px;
+    left: 976px;
+    top: 1797px;
+  }
+
+  .mac-left-image {
+    position: absolute;
+    width: 465px;
+    height: 270px;
+    left: 975px;
+    top: 2015px;
+    background: url("../img/desktop/Rectangle 26.svg");
+    border: 1px solid rgb(255 255 255 / 10%);
+  }
+
+  .grid-container-3 {
+    position: absolute;
+    width: 465px;
+    height: 218px;
+    left: 980px;
+    top: 1797px;
+  }
+
+  .img-geometry-4 {
+    position: absolute;
+    width: 87.69px;
+    height: 87.71px;
+    right: 640.31px;
+    top: 2547.69px;
+    background: url("../img/desktop/image-geometry_4.svg");
+  }
+
+  .blue-container {
+    left: 160px;
+    top: 3046px;
+  }
+
+  .red-container {
+    left: 449px;
+    top: 3046px;
+  }
+
+  .yellow-container {
+    left: 160px;
+    top: 3335px;
+  }
+
+  .cv-section {
+    position: absolute;
+    left: 834px;
+    top: 3004px;
+  }
+
+  .get-started {
+    position: absolute;
+    width: 1440px;
+    height: 950px;
+    left: 0;
+    top: 3782px;
+  }
+
+  .yellow-get-started-desktop {
+    position: absolute;
+    width: 263.06px;
+    height: 350.84px;
+    left: 0;
+    top: 0;
+    background: url("../img/desktop/image-geometry_6.svg");
+  }
+
+  .get-started h2 {
+    position: absolute;
+    width: 548px;
+    height: 110px;
+    left: 446px;
+    top: 168px;
+    font-family: "Playfair Display", Roboto, sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 100px;
+    line-height: 100%;
+  }
+
+  .get-started article {
+    position: absolute;
+    width: 492px;
+    height: 63px;
+    left: 486px;
+    top: 368px;
+    font-family: Poppins, Roboto, sans-serif;
+    font-style: normal;
+    line-height: 21px;
+    letter-spacing: -0.01em;
+    color: #1a2236;
+  }
+
+  form {
+    position: absolute;
+    padding-left: 40%;
+    padding-top: 10%;
+  }
+
+  footer {
+    position: absolute;
+    width: 1440px;
+    height: 120px;
+    left: 0;
+    top: 4729px;
+  }
+
+  .social-icons {
+    position: absolute;
+    left: 1000px;
+    top: 12px;
+  }
 }
