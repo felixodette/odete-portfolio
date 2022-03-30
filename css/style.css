@@ -763,7 +763,7 @@ Getting started
   width: 259px;
   height: 50px;
   left: 16px;
-  top: 106px;
+  top: 96px;
   font-family: "Playfair Display", Roboto, sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -790,14 +790,8 @@ Getting started
 .get-started form {
   position: absolute;
   width: 288px;
-
-  /* height: 52px; */
   left: 16px;
   top: 311px;
-
-  /* background: #fff; */
-
-  /* border: 1px solid #dfdfe0; */
   box-sizing: border-box;
   border-radius: 4px;
   margin: 0 auto;
@@ -1046,6 +1040,15 @@ Desktop Site
     background: url("../img/desktop/image_dots.svg");
   }
 
+  .img-geometry-7 {
+    position: absolute;
+    width: 350.75px;
+    height: 350.84px;
+    left: 1089px;
+    top: 596px;
+    background: url("../img/desktop/image-geometry_7.svg");
+  }
+
   .image-geometry-2 {
     position: absolute;
     width: 511px;
@@ -1271,7 +1274,7 @@ Desktop Site
     width: 548px;
     height: 110px;
     left: 446px;
-    top: 168px;
+    top: 118px;
     font-family: "Playfair Display", Roboto, sans-serif;
     font-weight: 400;
     text-align: center;
@@ -1284,7 +1287,7 @@ Desktop Site
     width: 492px;
     height: 63px;
     left: 486px;
-    top: 368px;
+    top: 318px;
     font-family: Poppins, Roboto, sans-serif;
     font-style: normal;
     line-height: 21px;
@@ -1294,8 +1297,9 @@ Desktop Site
 
   form {
     position: absolute;
+    display: grid;
     padding-left: 40%;
-    padding-top: 10%;
+    padding-top: 5%;
   }
 
   footer {
