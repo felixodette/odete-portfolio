@@ -983,22 +983,67 @@ Desktop Site
     z-index: 4;
   }
 
-  /*.image-dots {*/
-  /*  position: absolute;*/
-  /*  width: 175px;*/
-  /*  height: 175px;*/
-  /*  left: 315px;*/
-  /*  top: 802px;*/
-  /*  background-image: url("../img/desktop/image_dots.svg");*/
-  /*}*/
+  .image-geometry-5 {
+    position: absolute;
+    width: 211.7px;
+    height: 124.94px;
+    left: 0;
+    top: 2560px;
+    background: url("../img/desktop/image-geometry_5.svg");
+  }
 
-  .image-dots-top {
-    position: relative;
+  .image-geometry-4 {
+    position: absolute;
+    width: 87.69px;
+    height: 87.71px;
+    right: 639.31px;
+    top: 2560.69px;
+    background: url("../img/desktop/image-geometry_4.svg");
+  }
+
+  .image-geometry-3 {
+    position: absolute;
+    width: 639.75px;
+    height: 275.42px;
+    left: 800px;
+    top: 2286px;
+    background: url("../img/desktop/image-geometry_3.svg");
+  }
+
+  .rectangle-25-1 {
+    position: absolute;
+    width: 465px;
+    height: 270px;
+    left: 975px;
+    top: 1745px;
+    background: url("../img/desktop/Rectangle 25-1.svg");
+  }
+
+  .image-teal {
+    position: absolute;
+    width: 222.02px;
+    height: 222px;
+    left: 516px;
+    top: 3400px;
+    background: url("../img/desktop/image_dots_with_teal.svg");
+  }
+
+  .projects-dots {
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    left: 323px;
+    top: 1187px;
+    background: url("../img/desktop/image_dots.svg");
+  }
+
+  .name-dots {
+    position: absolute;
+    width: 175px;
+    height: 175px;
+    left: 563px;
     top: 802px;
-    left: 532px;
-    height: 172px;
-    width: 172px;
-    background-image: url("../img/desktop/image_dots.png");
+    background: url("../img/desktop/image_dots.svg");
   }
 
   .image-geometry-2 {
