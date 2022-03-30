@@ -1302,6 +1302,78 @@ Desktop Site
     padding-top: 5%;
   }
 
+  #form-name {
+    position: absolute;
+    width: 66px;
+    height: 18px;
+    left: 464px;
+    top: 370px;
+  }
+
+  #form-email {
+    position: absolute;
+    width: 66px;
+    height: 18px;
+    left: 747px;
+    top: 370px;
+  }
+
+  #form-text {
+    position: absolute;
+    width: 170.83px;
+    height: 18px;
+    left: 468px;
+    top: 468px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #7d7c84;
+  }
+
+  form #list-name {
+    position: absolute;
+    width: 254px;
+    height: 60px;
+    left: 449px;
+    top: 82px;
+    border: 1px solid #e0e0e0;
+    box-sizing: border-box;
+    border-radius: 4px;
+  }
+
+  form #list-email {
+    position: absolute;
+    width: 254px;
+    height: 60px;
+    left: 730px;
+    top: 82px;
+    border: 1px solid #e0e0e0;
+    box-sizing: border-box;
+    border-radius: 4px;
+  }
+
+  form #list-textarea {
+    position: absolute;
+    width: 543px;
+    height: 140px;
+    left: 449px;
+    top: 184px;
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    box-sizing: border-box;
+    border-radius: 4px;
+  }
+
+  .btn-get-started {
+    position: absolute;
+    width: 254px;
+    height: 70px;
+    left: 593px;
+    top: 354px;
+  }
+
   footer {
     position: absolute;
     width: 1440px;
