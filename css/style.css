@@ -291,7 +291,7 @@
   text-align: left;
 }
 
-.black-arrow {
+.white-arrow {
   position: absolute;
   background: url("../img/union.svg");
   width: 20.57px;
@@ -299,6 +299,10 @@
   top: 54px;
   left: 146px;
   margin-left: 10px;
+}
+
+.see-project:hover {
+  cursor: pointer;
 }
 
 footer h3 {
@@ -1380,12 +1384,37 @@ Desktop Site
     color: #1a2236;
   }
 
-  .see-project img {
+  /*.see-project img {*/
+  /*  position: absolute;*/
+  /*  width: 20.57px;*/
+  /*  height: 15.35px;*/
+  /*  left: 157px;*/
+  /*  top: 74.95px;*/
+  /*}*/
+
+  .see-project {
+    background: #fff;
+    color: #1a2236;
+  }
+
+  .white-arrow {
     position: absolute;
+    background: url("../img/desktop/Union-black.svg");
     width: 20.57px;
     height: 15.35px;
-    left: 157px;
-    top: 74.95px;
+    top: 73.39px;
+    left: 146px;
+    margin-left: 10px;
+  }
+
+  .grid-container-3 .white-arrow {
+    position: absolute;
+    background: url("../img/desktop/Union-black.svg");
+    width: 20.57px;
+    height: 15.35px;
+    top: 161.19px;
+    left: 161px;
+    margin-left: 10px;
   }
 
   .macbook-image {
