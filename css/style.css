@@ -1256,7 +1256,6 @@ Desktop Site
     left: 975px;
     top: 2015px;
     background: url("../img/desktop/Rectangle 26.svg");
-    /*border: 1px solid rgb(255 255 255 / 10%);*/
   }
 
   .grid-container-3 {
@@ -1302,7 +1301,7 @@ Desktop Site
     height: 16px;
     top: 5px;
     left: 8px;
-    font-family: Poppins;
+    font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 20px;
@@ -1334,7 +1333,7 @@ Desktop Site
     height: 16px;
     top: 5px;
     left: 8px;
-    font-family: Poppins;
+    font-family: Poppins, serif;
     font-style: normal;
     font-weight: 300;
     font-size: 20px;
@@ -1417,7 +1416,9 @@ Desktop Site
 
   .text-get-started::after {
     visibility: visible;
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ";
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et do\
+    lore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo\
+     consequat.";
     position: absolute;
     width: 492px;
     height: 63px;
@@ -1429,19 +1430,6 @@ Desktop Site
     letter-spacing: -0.01em;
     color: #1a2236;
   }
-
-  /*.get-started article {*/
-  /*  position: absolute;*/
-  /*  width: 492px;*/
-  /*  height: 63px;*/
-  /*  left: 486px;*/
-  /*  top: 318px;*/
-  /*  font-family: Poppins, Roboto, sans-serif;*/
-  /*  font-style: normal;*/
-  /*  line-height: 21px;*/
-  /*  letter-spacing: -0.01em;*/
-  /*  color: #1a2236;*/
-  /*}*/
 
   form {
     position: absolute;
