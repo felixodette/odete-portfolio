@@ -280,10 +280,25 @@
   grid-column-start: 1;
   grid-column-end: span 3;
   grid-row: 2;
+  color: #fff;
+  background: transparent;
+  padding-left: 10px;
   width: 178px;
   height: 44px;
   left: 20px;
   border: 1px solid #fff;
+  font-size: 17px;
+  text-align: left;
+}
+
+.black-arrow {
+  position: absolute;
+  background: url("../img/union.svg");
+  width: 20.57px;
+  height: 15.35px;
+  top: 54px;
+  left: 146px;
+  margin-left: 10px;
 }
 
 footer h3 {
@@ -665,6 +680,13 @@ footer h3 {
   cursor: pointer;
   background: #fff;
   border: 1px solid #1a2236;
+  color: #1a2236;
+}
+
+.about-section-button:active {
+  cursor: pointer;
+  background: #fff;
+  border: 2px solid #1a2236;
   color: #1a2236;
 }
 
