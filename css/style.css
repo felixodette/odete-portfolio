@@ -964,12 +964,82 @@ Desktop Site
     line-height: 24px;
   }
 
-  hr {
-    width: 29px;
+  .link-hello {
+    position: absolute;
+    width: 39px;
+    height: 24px;
+    left: 536px;
+    font-family: Poppins, Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: right;
+    color: #1a2236;
+  }
+
+  .link-hello::after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
     height: 2px;
-    top: 62px;
-    background: #1a2236;
-    transition: 0.3s ease-in-out;
+    left: 50%;
+    position: absolute;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+
+  .link-hello::after {
+    background: #000;
+  }
+
+  .link-hello::after {
+    width: 60%;
+    left: 0;
+  }
+
+  .link-hello:active ~ hr {
+    margin-left: 25%;
+    z-index: 4;
+  }
+
+  .link-portfolio {
+    position: absolute;
+    width: 66px;
+    height: 24px;
+    left: 625px;
+    font-family: Poppins, Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: right;
+    color: #1a2236;
+  }
+
+  .link-about {
+    position: absolute;
+    width: 48px;
+    height: 24px;
+    left: 741px;
+    font-family: Poppins, Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: right;
+    color: #1a2236;
+  }
+
+  .link-contact {
+    position: absolute;
+    width: 66px;
+    height: 24px;
+    left: 839px;
+    font-family: Poppins, Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: right;
+    color: #1a2236;
   }
 
   .link-hello:active ~ hr {
