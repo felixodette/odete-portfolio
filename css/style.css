@@ -1143,20 +1143,65 @@ Desktop Site
     top: 1534px;
   }
 
-  .html-css-rectangle,
-  .ruby-rails-rectangle,
-  .javascript-rectangle {
+  .html-css-rectangle {
     width: 132px;
-    height: 48px;
+    height: 40px;
+    margin-right: 20px;
   }
 
-  .grid-container p {
+  .ruby-rails-rectangle {
+    width: 169px;
+    height: 40px;
+    margin-right: 20px;
+  }
+
+  .javascript-rectangle {
+    width: 144px;
+    height: 40px;
+  }
+
+  .html-css-rectangle p {
+    position: absolute;
     width: 94px;
     height: 16px;
+    left: 20px;
+    top: 5px;
     font-weight: 300;
     font-size: 20px;
     line-height: 80%;
-    margin: 6px 10px;
+    color: #1a2236;
+  }
+
+  .ruby-rails-rectangle p {
+    position: absolute;
+    width: 149px;
+    height: 16px;
+    left: 180px;
+    top: 5px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 80%;
+    color: #1a2236;
+  }
+
+  .javascript-rectangle p {
+    position: absolute;
+    width: 149px;
+    height: 16px;
+    left: 380px;
+    top: 5px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 80%;
+    color: #1a2236;
+  }
+
+  .see-project img {
+    position: absolute;
+    width: 20.57px;
+    height: 15.35px;
+    left: 157px;
+    top: 74.95px;
   }
 
   .macbook-image {
@@ -1211,7 +1256,7 @@ Desktop Site
     left: 975px;
     top: 2015px;
     background: url("../img/desktop/Rectangle 26.svg");
-    border: 1px solid rgb(255 255 255 / 10%);
+    /*border: 1px solid rgb(255 255 255 / 10%);*/
   }
 
   .grid-container-3 {
@@ -1220,6 +1265,90 @@ Desktop Site
     height: 218px;
     left: 980px;
     top: 1797px;
+  }
+
+  .grid-container-3 .html-css-rectangle {
+    position: absolute;
+    width: 132px;
+    height: 40px;
+    left: 30px;
+    top: 68px;
+  }
+
+  .grid-container-3 .html-css-rectangle p {
+    position: absolute;
+    width: 94px;
+    height: 16px;
+    top: 5px;
+    left: 7px;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 80%;
+  }
+
+  .grid-container-3 .ruby-rails-rectangle {
+    position: absolute;
+    width: 169px;
+    height: 40px;
+    left: 177px;
+    top: 68px;
+  }
+
+  .grid-container-3 .ruby-rails-rectangle p {
+    position: absolute;
+    width: 139px;
+    height: 16px;
+    top: 5px;
+    left: 8px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 80%;
+  }
+
+  .grid-container-3 .javascript-rectangle {
+    position: absolute;
+    width: 57px;
+    height: 40px;
+    left: 370px;
+    top: 68px;
+  }
+
+  .js-text {
+    visibility: hidden;
+  }
+
+  .js-text::after {
+    visibility: visible;
+    content: "+1";
+    position: absolute;
+    left: 3px;
+  }
+
+  .grid-container-3 .javascript-rectangle p {
+    position: absolute;
+    width: 139px;
+    height: 16px;
+    top: 5px;
+    left: 8px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 80%;
+  }
+
+  .grid-container-3 .see-project {
+    margin-top: 100px;
+    margin-left: 18px;
+  }
+
+  .grid-container-3 .see-project img {
+    margin-top: 85px;
+    margin-left: 15px;
   }
 
   .img-geometry-4 {
@@ -1282,18 +1411,37 @@ Desktop Site
     line-height: 100%;
   }
 
-  .get-started article {
+  .text-get-started {
+    visibility: hidden;
+  }
+
+  .text-get-started::after {
+    visibility: visible;
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ";
     position: absolute;
     width: 492px;
     height: 63px;
-    left: 486px;
-    top: 318px;
+    left: 476px;
+    top: 120px;
     font-family: Poppins, Roboto, sans-serif;
     font-style: normal;
     line-height: 21px;
     letter-spacing: -0.01em;
     color: #1a2236;
   }
+
+  /*.get-started article {*/
+  /*  position: absolute;*/
+  /*  width: 492px;*/
+  /*  height: 63px;*/
+  /*  left: 486px;*/
+  /*  top: 318px;*/
+  /*  font-family: Poppins, Roboto, sans-serif;*/
+  /*  font-style: normal;*/
+  /*  line-height: 21px;*/
+  /*  letter-spacing: -0.01em;*/
+  /*  color: #1a2236;*/
+  /*}*/
 
   form {
     position: absolute;
@@ -1307,7 +1455,7 @@ Desktop Site
     width: 66px;
     height: 18px;
     left: 464px;
-    top: 370px;
+    top: 470px;
   }
 
   #form-email {
@@ -1315,7 +1463,7 @@ Desktop Site
     width: 66px;
     height: 18px;
     left: 747px;
-    top: 370px;
+    top: 470px;
   }
 
   #form-text {
@@ -1323,8 +1471,8 @@ Desktop Site
     width: 170.83px;
     height: 18px;
     left: 468px;
-    top: 468px;
-    font-family: Poppins;
+    top: 568px;
+    font-family: Poppins, Roboto, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -1337,7 +1485,7 @@ Desktop Site
     width: 254px;
     height: 60px;
     left: 449px;
-    top: 82px;
+    top: 182px;
     border: 1px solid #e0e0e0;
     box-sizing: border-box;
     border-radius: 4px;
@@ -1348,7 +1496,7 @@ Desktop Site
     width: 254px;
     height: 60px;
     left: 730px;
-    top: 82px;
+    top: 182px;
     border: 1px solid #e0e0e0;
     box-sizing: border-box;
     border-radius: 4px;
@@ -1359,7 +1507,7 @@ Desktop Site
     width: 543px;
     height: 140px;
     left: 449px;
-    top: 184px;
+    top: 284px;
     background: #fff;
     border: 1px solid #e0e0e0;
     box-sizing: border-box;
@@ -1371,7 +1519,7 @@ Desktop Site
     width: 254px;
     height: 70px;
     left: 593px;
-    top: 354px;
+    top: 454px;
   }
 
   footer {
