@@ -291,7 +291,7 @@
   text-align: left;
 }
 
-.white-arrow {
+.arrow {
   position: absolute;
   background: url("../img/union.svg");
   width: 20.57px;
@@ -1384,20 +1384,29 @@ Desktop Site
     color: #1a2236;
   }
 
-  /*.see-project img {*/
-  /*  position: absolute;*/
-  /*  width: 20.57px;*/
-  /*  height: 15.35px;*/
-  /*  left: 157px;*/
-  /*  top: 74.95px;*/
-  /*}*/
-
   .see-project {
     background: #fff;
     color: #1a2236;
   }
 
-  .white-arrow {
+  .see-project:hover {
+    background: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+  }
+
+  .see-project:hover .arrow {
+    background: url("../img/union.svg") no-repeat transparent;
+    color: #fff;
+  }
+
+  .see-project:active {
+    background: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+  }
+
+  .arrow {
     position: absolute;
     background: url("../img/desktop/Union-black.svg");
     width: 20.57px;
@@ -1407,7 +1416,7 @@ Desktop Site
     margin-left: 10px;
   }
 
-  .grid-container-3 .white-arrow {
+  .grid-container-3 .arrow {
     position: absolute;
     background: url("../img/desktop/Union-black.svg");
     width: 20.57px;
