@@ -638,22 +638,34 @@ footer h3 {
   color: #1a2236;
 }
 
-.about-rectangle-button {
+.about-section-button {
   position: absolute;
   width: 288px;
   height: 50px;
   left: 10px;
   top: 284px;
   background: #1a2236;
-}
-
-.about-rectangle-button h1 {
   color: #fff;
   font-family: Poppins, Roboto, Arial, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   text-align: center;
+}
+
+.about-section-button img {
+  position: absolute;
+  left: 195px;
+  top: 8px;
+  width: 24px;
+  height: 24px;
+}
+
+.about-section-button:hover {
+  cursor: pointer;
+  background: #fff;
+  border: 1px solid #1a2236;
+  color: #1a2236;
 }
 
 .blue-container {
@@ -867,9 +879,18 @@ input {
   border-style: none;
 }
 
-.btn-get-started:hover,
+.btn-get-started:hover {
+  cursor: pointer;
+  background: #fff;
+  border: 1px solid #1a2236;
+  color: #1a2236;
+}
+
 .btn-get-started:active {
   cursor: pointer;
+  background: #fff;
+  border: 2px solid #1a2236;
+  color: #1a2236;
 }
 
 .form-details {
@@ -1557,7 +1578,8 @@ Desktop Site
 
   .text-get-started::after {
     visibility: visible;
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt labore et do.";
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt labore et do.\
+     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt labore et do.";
     position: absolute;
     width: 492px;
     height: 63px;
