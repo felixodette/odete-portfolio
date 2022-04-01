@@ -1218,6 +1218,14 @@ Desktop Site
     background: url("../img/desktop/image-geometry_2.png");
   }
 
+  .fade {
+    opacity: 0.5;
+  }
+
+  .fade:hover {
+    opacity: 1;
+  }
+
   .name h1 {
     position: absolute;
     width: 484px;
