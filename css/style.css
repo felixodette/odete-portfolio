@@ -689,8 +689,8 @@ footer h3 {
 .icon-download {
   position: absolute;
   background: url("../img/desktop/file_download_white_24dp.svg");
-  left: 195px;
-  top: 8px;
+  left: 198px;
+  top: 295px;
   width: 24px;
   height: 24px;
 }
@@ -702,11 +702,11 @@ footer h3 {
   color: #1a2236;
 }
 
-.about-section-button:hover .icon-download {
+.about-section-button:hover + .icon-download {
   position: absolute;
   background: url("../img/desktop/file_download_black_24dp.svg");
-  left: 195px;
-  top: 8px;
+  left: 198px;
+  top: 295px;
   width: 24px;
   height: 24px;
 }
@@ -1428,7 +1428,7 @@ Desktop Site
     margin-left: 10px;
   }
 
-  .see-project:hover .arrow {
+  .see-project:hover + .arrow {
     background: url("../img/union.svg") no-repeat transparent;
     color: #fff;
   }
