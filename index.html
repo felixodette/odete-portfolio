@@ -25,6 +25,12 @@
                 <div class="rectangle"></div>
             </div>
         </a>
+        <div class="desktop-nav">
+            <a href="" class="link-hello hr">Hello</a>
+            <a href="" class="link-about">About</a>
+            <a href="#site-project" class="link-portfolio">Portfolio</a>
+            <a href="#get-started" class="link-contact">Contact</a>
+        </div>
     </nav>
 </header>
     <main class="flex-container">
@@ -37,17 +43,23 @@
                     my works.
                     If you like what you see and have a project you need coded, don’t hesitate and contact me.</p>
             </div>
-            <a href="">
-                <div class="rectangle-button">
-                    <h1>Start collaboration</h1>
-                </div>
-            </a>
+                <button type="button" class="btn-about">Start collaboration</button>
             <div class="middle-image"></div>
+            <div class="side-image"></div>
+            <div class="image-geometry-2"></div>
+            <div class="image-geometry-5"></div>
+            <div class="image-geometry-4"></div>
+            <div class="image-geometry-3"></div>
+            <div class="rectangle-25-1"></div>
+            <div class="image-teal"></div>
+            <div class="projects-dots"></div>
+            <div class="name-dots"></div>
         </div>
         <div>
-            <h2 class="projects">Projects</h2>
+            <h2 class="projects" id="site-project">Projects</h2>
         </div>
         <div class="computer-image"></div>
+        <div class="large-computer-image"></div>
         <div class="project-section">
             <h2>Project name goes here</h2>
         </div>
@@ -61,11 +73,10 @@
             <div class="javascript-rectangle">
                 <p>Javascript</p>
             </div>
-            <div class="see-project">
-                <h3>See this project</h3>
-                <img alt="" src="img/union.svg">
-            </div>
+            <button type="button" class="see-project">See this project</button>
+            <div class="arrow"></div>
         </div>
+        <div class="image-geometry-4"></div>
         <div class="macbook-image"></div>
         <div class="project-section-1">
             <h2>Project name goes here</h2>
@@ -80,10 +91,8 @@
             <div class="javascript-rectangle">
                 <p>Javascript</p>
             </div>
-            <div class="see-project">
-                <h3>See this project</h3>
-                <img alt="" src="img/union.svg">
-            </div>
+            <button type="button" class="see-project">See this project</button>
+            <div class="arrow"></div>
         </div>
         <div class="mac-iphone-image"></div>
         <div class="project-section-2">
@@ -99,10 +108,8 @@
             <div class="javascript-rectangle">
                 <p>Javascript</p>
             </div>
-            <div class="see-project">
-                <h3>See this project</h3>
-                <img alt="" src="img/union.svg">
-            </div>
+            <button type="button" class="see-project">See this project</button>
+            <div class="arrow"></div>
         </div>
         <div class="mac-right-image"></div>
         <div class="project-section-3">
@@ -116,12 +123,10 @@
                 <p>Ruby on Rails</p>
             </div>
             <div class="javascript-rectangle">
-                <p>Javascript</p>
+                <p class="js-text">Javascript</p>
             </div>
-            <div class="see-project">
-                <h3>See this project</h3>
-                <img alt="" src="img/union.svg">
-            </div>
+            <button type="button" class="see-project">See this project</button>
+            <div class="arrow"></div>
         </div>
         <div class="mac-left-image"></div>
         <div class="project-section-4">
@@ -137,10 +142,8 @@
             <div class="javascript-rectangle">
                 <p>Javascript</p>
             </div>
-            <div class="see-project">
-                <h3>See this project</h3>
-                <img alt="" src="img/union.svg">
-            </div>
+            <button type="button" class="see-project">See this project</button>
+            <div class="arrow"></div>
         </div>
         <div class="mac-pink"></div>
         <div class="project-section-5">
@@ -170,13 +173,8 @@
                     et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
                     aliquip ea eiusmod</p>
             </div>
-            <a href="">
-                <div class="about-rectangle-button">
-                    <h1>Get my CV</h1>
-                    <img src="img/down.png" alt="" class="down-arrow">
-                    <img src="img/bucket.png" alt="" class="bucket">
-                </div>
-            </a>
+                <button type="button" class="about-section-button">Get my CV</button>
+                <div class="icon-download"></div>
         </div>
         <div class="blue-container">
             <img src="img/pound.svg" alt="Pound">
@@ -223,23 +221,25 @@
                 </ul>
             </div>
         </div>
-        <div class="get-started">
+        <div class="get-started" id="get-started">
             <img src="img/yellow-triangle-getting-started.svg" alt="" class="yellow-get-started">
+            <div class="yellow-get-started-desktop"></div>
             <img src="img/red-square-getting-started.svg" alt="" class="red-get-started">
+            <div class="img-geometry-7"></div>
             <h2>Get started</h2>
-            <article>
+            <article class="text-get-started">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.
             </article>
             <div class="form-text">
                 <p id="form-name" class="form-details">Your name</p>
                 <p id="form-email" class="form-details">Your email</p>
-                <p id="form-text" class="form-details">Enter your message here...</p>
+                <p id="form-text" class="form-details text-area-text">Enter your message here...</p>
             </div>
             <form action="https://formspree.io/f/xzboarvz" method="post">
                 <ul>
-                    <li><input type="text" required maxlength="30"></li>
-                    <li><input type="email" required maxlength="50"></li>
-                    <li><textarea name="textarea" cols="30" rows="10" required maxlength="500"></textarea></li>
+                    <li><input type="text" required maxlength="30" id="list-name"></li>
+                    <li><input type="email" required maxlength="50" id="list-email"></li>
+                    <li><textarea name="textarea" cols="30" rows="10" required maxlength="500" id="list-textarea"></textarea></li>
                     <li><button type="submit" class="btn-get-started">Start collaboration</button></li>
                 </ul>
             </form>
@@ -250,7 +250,7 @@
         <img src="img/Rectangle%2015.png" alt="" id="resume-box"> /* use as css */
         <span class="material-icons">open_in_new</span>
         <div class="social-icons">
-            <img src="img/stackoverflow-24.png" alt="">
+            <img src="img/ic_stackoverflow.svg" alt="" id="stackoverflow">
             <img src="img/github.svg" alt="" id="github">
             <img src="img/twitter.svg" alt="" id="twitter">
             <img src="img/linkedin.svg" alt="" id="linkedin">

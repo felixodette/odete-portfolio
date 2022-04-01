@@ -5,7 +5,8 @@ set up a new repository and prepare it for development using best practices (e.g
 build the first 2 sections of the mobile website using the template I chose in Figma.
 
 ### Built With
-* HTML, CSS
+* HTML
+* CSS
 
 ### Live Demo
 https://felixodette.github.io/odete-portfolio/
