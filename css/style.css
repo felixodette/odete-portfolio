@@ -302,7 +302,21 @@
 }
 
 .see-project:hover {
+  background: transparent;
+  color: #fff;
+  border: 1px solid #fff;
   cursor: pointer;
+}
+
+.see-project:hover .arrow {
+  background: url("../img/union.svg") no-repeat transparent;
+  color: #fff;
+}
+
+.see-project:active {
+  background: transparent;
+  color: #fff;
+  border: 2px solid #fff;
 }
 
 footer h3 {
@@ -672,8 +686,9 @@ footer h3 {
   text-align: center;
 }
 
-.about-section-button img {
+.icon-download {
   position: absolute;
+  background: url("../img/desktop/file_download_white_24dp.svg");
   left: 195px;
   top: 8px;
   width: 24px;
@@ -685,6 +700,15 @@ footer h3 {
   background: #fff;
   border: 1px solid #1a2236;
   color: #1a2236;
+}
+
+.about-section-button:hover .icon-download {
+  position: absolute;
+  background: url("../img/desktop/file_download_black_24dp.svg");
+  left: 195px;
+  top: 8px;
+  width: 24px;
+  height: 24px;
 }
 
 .about-section-button:active {
@@ -1070,9 +1094,6 @@ Desktop Site
 
   .link-hello::after {
     background: #000;
-  }
-
-  .link-hello::after {
     width: 60%;
     left: 0;
   }
@@ -1119,11 +1140,6 @@ Desktop Site
     font-size: 16px;
     text-align: right;
     color: #1a2236;
-  }
-
-  .link-hello:active ~ hr {
-    margin-left: 25%;
-    z-index: 4;
   }
 
   .image-geometry-5 {
@@ -1269,12 +1285,6 @@ Desktop Site
     color: #1a2236;
   }
 
-  /*.rectangle-button {*/
-  /*  position: absolute;*/
-  /*  left: 160px;*/
-  /*  top: 715px;*/
-  /*}*/
-
   .side-image {
     position: absolute;
     background: url("../img/desktop/image-geometry_1.svg");
@@ -1323,11 +1333,21 @@ Desktop Site
     line-height: 80%;
   }
 
+  .arrow {
+    position: absolute;
+    background: url("../img/desktop/Union-black.svg");
+    width: 20.57px;
+    height: 15.35px;
+    top: 73.39px;
+    left: 146px;
+    margin-left: 10px;
+  }
+
   .grid-container {
     position: absolute;
     width: 132px;
     height: 40px;
-    left: 540px;
+    left: 492px;
     top: 1534px;
   }
 
@@ -1389,10 +1409,29 @@ Desktop Site
     color: #1a2236;
   }
 
+  .grid-container .see-project {
+    margin-top: 35px;
+  }
+
+  .grid-container .arrow {
+    position: absolute;
+    top: 109.2px;
+  }
+
   .see-project:hover {
     background: transparent;
     color: #fff;
     border: 1px solid #fff;
+  }
+
+  .grid-container-3 .arrow {
+    position: absolute;
+    background: url("../img/desktop/Union-black.svg");
+    width: 20.57px;
+    height: 15.35px;
+    top: 161.19px;
+    left: 161px;
+    margin-left: 10px;
   }
 
   .see-project:hover .arrow {
@@ -1404,26 +1443,6 @@ Desktop Site
     background: transparent;
     color: #fff;
     border: 2px solid #fff;
-  }
-
-  .arrow {
-    position: absolute;
-    background: url("../img/desktop/Union-black.svg");
-    width: 20.57px;
-    height: 15.35px;
-    top: 73.39px;
-    left: 146px;
-    margin-left: 10px;
-  }
-
-  .grid-container-3 .arrow {
-    position: absolute;
-    background: url("../img/desktop/Union-black.svg");
-    width: 20.57px;
-    height: 15.35px;
-    top: 161.19px;
-    left: 161px;
-    margin-left: 10px;
   }
 
   .macbook-image {
@@ -1562,6 +1581,10 @@ Desktop Site
     line-height: 80%;
   }
 
+  .social-icons img {
+    height: 18px;
+  }
+
   .grid-container-3 .see-project {
     margin-top: 100px;
     margin-left: 18px;
@@ -1638,8 +1661,7 @@ Desktop Site
 
   .text-get-started::after {
     visibility: visible;
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt labore et do.\
-     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt labore et do.";
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt labore et do.";
     position: absolute;
     width: 492px;
     height: 63px;
@@ -1742,6 +1764,6 @@ Desktop Site
   .social-icons {
     position: absolute;
     left: 1000px;
-    top: 12px;
+    top: 47px;
   }
 }
