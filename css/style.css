@@ -1045,6 +1045,13 @@ Desktop Site
     display: none;
   }
 
+  .grow:hover
+  {
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+  }
+
   .desktop-nav {
     position: absolute;
     display: inline-flex;
