@@ -47,6 +47,18 @@
       "oO" : 1,
       "oS" : 1
     },
+    "\/css\/style-min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/css\/style-min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/css\/style.css" : {
       "aP" : 1,
       "bl" : 0,
