@@ -1000,7 +1000,7 @@ Desktop Site
 ===========================
 */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 375px) {
   body {
     overflow-x: hidden;
   }
@@ -1079,13 +1079,13 @@ Desktop Site
   }
 
   .link-portfolio {
-    top: 274px;
+    top: 284px;
     text-align: center;
     color: #000;
   }
 
   .link-contact {
-    top: 334px;
+    top: 354px;
     text-align: center;
     color: #000;
   }
