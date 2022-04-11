@@ -2,6 +2,7 @@ const navSlide = () => {
     const burger = document.querySelector('.menu-button');
     const nav = document.querySelector('.desktop-nav');
     const navLinks = document.querySelectorAll('.desktop-nav a');
+    
 
     burger.addEventListener('click', () => {
         nav.classList.toggle('nav-active');
