@@ -1008,9 +1008,9 @@ Desktop Site
   .desktop-nav {
     position: absolute;
     display: flex;
-    right: 0px;
+    right: 0;
     height: 100vh;
-    top: 0px;
+    top: 0;
     width: 100%;
     background: #e5e5e5;
     flex-direction: column;
@@ -1033,8 +1033,8 @@ Desktop Site
     position: absolute;
     width: 111px;
     height: 74px;
-    left: 0px;
-    top: 0px;
+    left: 0;
+    top: 0;
   }
 
   .group-51 {
@@ -1174,7 +1174,7 @@ Desktop Site
 
     to {
       opacity: 1;
-      transform: translateX(0px);
+      transform: translateX(0);
     }
   }
 }
