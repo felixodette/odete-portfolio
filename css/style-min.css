@@ -5,17 +5,7 @@
 
 .body {
   background-color: #e5e5e5;
-
-  /* width: 320px; */
 }
-
-/* .container {
-  width: 320px;
-}
-
-.head-container {
-  width: 320px;
-} */
 
 .rectangle {
   height: 2px;
@@ -162,12 +152,6 @@
   left: 0;
   top: 582px;
 }
-
-/* .side-image { */
-
-/*  display: none; */
-
-/* } */
 
 .projects {
   position: absolute;
