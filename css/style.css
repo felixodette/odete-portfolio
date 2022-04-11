@@ -36,8 +36,7 @@
   width: 74px;
   height: 74px;
   right: 246px;
-  background: linear-gradient(0deg, #fec25a, #fec25a),
-    url("../img/yellow-triangle.png"), #98dede;
+  background: linear-gradient(0deg, #fec25a, #fec25a), url("../img/yellow-triangle.png"), #98dede;
   background-blend-mode: normal, overlay, normal;
   z-index: 3;
 }
@@ -47,8 +46,7 @@
   width: 74px;
   height: 74px;
   right: 209px;
-  background: linear-gradient(0deg, #e35461, #e35461),
-    url("../img/red-square.png"), #e45865;
+  background: linear-gradient(0deg, #e35461, #e35461), url("../img/red-square.png"), #e45865;
   background-blend-mode: normal, overlay, normal;
   z-index: 4;
 }
