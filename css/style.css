@@ -5,8 +5,7 @@
 
 .body {
   background-color: #e5e5e5;
-
-  /* width: 320px; */
+  width: 320px;
 }
 
 .container {
@@ -162,12 +161,6 @@
   left: 0;
   top: 582px;
 }
-
-/* .side-image { */
-
-/*  display: none; */
-
-/* } */
 
 .projects {
   position: absolute;
@@ -1015,9 +1008,185 @@ Desktop Site
 ===========================
 */
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+
   .desktop-nav {
-    display: none;
+    position: absolute;
+    display: flex;
+    right: 0px;
+    height: 100vh;
+    top: 0px;
+    width: 100%;
+    background: #e5e5e5;
+    flex-direction: column;
+    align-items: center;
+    z-index: 2;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+  }
+
+  .close {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 159px;
+    top: 24px;
+    z-index: 3;
+  }
+
+  .top-art {
+    position: absolute;
+    width: 111px;
+    height: 74px;
+    left: 0px;
+    top: 0px;
+  }
+
+  .group-51 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 223px;
+    top: 74px;
+  }
+
+  .group-50 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 54px;
+    top: 418px;
+  }
+
+  .desktop-nav a {
+    position: absolute;
+    width: 66px;
+    left: 127px;
+    font-family: Poppins, Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 300%;
+    text-decoration: none;
+  }
+
+  .link-hello {
+    top: 144px;
+    text-align: center;
+    color: #000;
+  }
+
+  .link-about {
+    top: 214px;
+    text-align: center;
+    color: #000;
+  }
+
+  .link-portfolio {
+    top: 274px;
+    text-align: center;
+    color: #000;
+  }
+
+  .link-contact {
+    top: 334px;
+    text-align: center;
+    color: #000;
+  }
+
+  .desktop-nav a {
+    opacity: 100;
+  }
+
+  .nav-active {
+    transform: translateX(0%);
+  }
+
+  .bottom-art-1 {
+    position: absolute;
+    width: 79.88px;
+    height: 79.89px;
+    right: 240.12px;
+    top: 587.85px;
+    background: url("../img/bottom/Shape-2.svg") no-repeat;
+    background-blend-mode: overlay, normal;
+  }
+
+  .bottom-art-2 {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    right: 240px;
+    top: 587.8px;
+    background: url("../img/bottom/Shape-5.svg");
+    background-blend-mode: overlay, normal;
+  }
+
+  .bottom-art-3 {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    right: 161.12px;
+    top: 586.8px;
+    background: url("../img/bottom/Shape-7.svg");
+    background-blend-mode: overlay, normal;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+  }
+
+  .bottom-art-4 {
+    position: absolute;
+    width: 79.88px;
+    height: 159.79px;
+    right: 80.38px;
+    top: 586.49px;
+    background: url("../img/bottom/Shape-4.svg") no-repeat;
+    background-blend-mode: overlay, normal;
+  }
+
+  .bottom-art-5 {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    right: 0.98px;
+    top: 587.4px;
+    background: url("../img/bottom/Shape.svg") no-repeat;
+    background-blend-mode: overlay, normal;
+  }
+
+  .bottom-art-6 {
+    position: absolute;
+    width: 39.94px;
+    height: 39.95px;
+    right: 180.22px;
+    top: 607.82px;
+    background: url("../img/bottom/Shape-6.svg") no-repeat;
+    background-blend-mode: normal, overlay, normal;
+  }
+
+  .bottom-art-7 {
+    position: absolute;
+    width: 39.94px;
+    height: 39.95px;
+    right: 20.06px;
+    top: 607.95px;
+    background: url("../img/bottom/Shape-1.svg") no-repeat;
+    background-blend-mode: normal, overlay, normal;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+  }
+
+  @keyframes nav-links-fade {
+    from {
+      opacity: 0;
+      transform: translateX(50px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateX(0px);
+    }
   }
 }
 
@@ -1041,7 +1210,13 @@ Desktop Site
   .grid-container-5,
   .middle-image,
   .yellow-get-started,
-  .red-get-started {
+  .red-get-started,
+  .close,
+  .top-art,
+  .group-51,
+  .group-50,
+  .bottom-art-1,
+  .bottom-art-2 {
     display: none;
   }
 
