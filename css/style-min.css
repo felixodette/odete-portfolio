@@ -5,16 +5,6 @@
 
 .body {
   background-color: #e5e5e5;
-
-  /* width: 320px; */
-}
-
-.container {
-  /* width: 320px; */
-}
-
-.head-container {
-  /* width: 320px; */
 }
 
 .rectangle {
@@ -162,12 +152,6 @@
   left: 0;
   top: 582px;
 }
-
-/* .side-image { */
-
-/*  display: none; */
-
-/* } */
 
 .projects {
   position: absolute;
@@ -1143,7 +1127,6 @@ Desktop Site
     height: 100px;
     left: 0;
     top: 0;
-    vertical-align: center;
     background-color: #fff;
     box-shadow: 0 0.5px 0 #dddfe6;
     justify-content: center;
