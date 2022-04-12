@@ -1009,7 +1009,7 @@ Desktop Site
     position: absolute;
     display: flex;
     right: 0;
-    height: 660.7px;
+    height: 662.7px;
     top: 0;
     width: 100%;
     background: #e5e5e5;
@@ -1064,6 +1064,7 @@ Desktop Site
     line-height: 300%;
     text-decoration: none;
     opacity: 100;
+    text-align: center;
   }
 
   .link-hello {
@@ -1072,13 +1073,13 @@ Desktop Site
     color: #000;
   }
 
-  .link-about {
+  .link-portfolio {
     top: 214px;
     text-align: center;
     color: #000;
   }
 
-  .link-portfolio {
+  .link-about {
     top: 284px;
     text-align: center;
     color: #000;
