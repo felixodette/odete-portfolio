@@ -342,7 +342,7 @@ article {
   article {
     width: 291px;
     height: 432px;
-    left: 11px;
+    left: 19px;
     top: 366px;
   }
 
@@ -401,33 +401,27 @@ article {
   .html-css,
   .ruby-rails,
   .javascript {
-    padding: 6px 6px;
+    padding: 6px;
+    top: 102px;
+    font-size: 10.3334px;
   }
 
   .html-css {
     width: 49px;
     height: 8px;
     left: 30px;
-    top: 102px;
-    font-size: 10.3334px;
-    text-align: center;
-
   }
 
   .ruby-rails {
     width: 67px;
     height: 8px;
     left: 109px;
-    top: 102px;
-    font-size: 10.3334px;
   }
 
   .javascript {
     width: 54px;
     height: 8px;
     left: 196px;
-    top: 102px;
-    font-size: 10.3334px;
   }
 
   .html-border {
