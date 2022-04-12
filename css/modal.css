@@ -1,3 +1,8 @@
+*::before,
+*::after {
+  transition: ease all 0.5s;
+}
+
 .modal {
   transform: translate(0%, 0%) scale(0);
   transition: 200ms ease-in-out;
@@ -258,4 +263,228 @@ article {
 #overlay.active {
   opacity: 1;
   pointer-events: all;
+}
+
+@media (max-width: 375px) {
+  .modal {
+    transform: translate(0%, 0%) scale(0);
+    transition: 200ms ease-in-out;
+    border-radius: 10px;
+    width: 320px;
+    height: 960px;
+    max-width: 90%;
+    z-index: 10;
+  }
+
+  .modal.active {
+    transform: translate(0%, 0%) scale(1);
+  }
+
+  .title {
+    position: absolute;
+    width: 264px;
+    height: 16px;
+    left: 20px;
+    top: 57px;
+    font-family: Poppins, Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 80%;
+    color: #1a2236;
+  }
+
+  .btn-close {
+    position: absolute;
+    left: 283.79px;
+    top: 19px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 2.25rem;
+    font-weight: bold;
+  }
+
+  .rectangle-34 {
+    width: 278.75px;
+    height: 162.16px;
+    left: 20.25px;
+    top: 134px;
+  }
+
+  .rectangle-39 {
+    width: 69.78px;
+    height: 40.54px;
+    left: 20.25px;
+    top: 296.16px;
+  }
+
+  .rectangle-40 {
+    width: 69.42px;
+    height: 40.54px;
+    left: 90.03px;
+    top: 296.16px;
+  }
+
+  .rectangle-41 {
+    width: 69.6px;
+    height: 40.54px;
+    left: 159.44px;
+    top: 296.16px;
+  }
+
+  .rectangle-42 {
+    width: 69.78px;
+    height: 40.54px;
+    left: 229.04px;
+    top: 296.16px;
+  }
+
+  article {
+    width: 291px;
+    height: 432px;
+    left: 11px;
+    top: 366px;
+  }
+
+  .btn-see-live {
+    position: absolute;
+    width: 246px;
+    height: 51px;
+    left: 37px;
+    top: 827px;
+    text-align: center;
+    background-color: white;
+  }
+
+  .btn-see-source {
+    position: absolute;
+    width: 246px;
+    height: 51px;
+    left: 37px;
+    top: 907px;
+    border: 1px solid #1a2236;
+    color: #1a2236;
+    text-align: center;
+    background-color: white;
+    box-sizing: border-box;
+  }
+
+  #previous {
+    position: absolute;
+    width: 153px;
+    height: 27px;
+    left: 410px;
+    top: 1645px;
+    font-family: Poppins, Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    color: #1a2236;
+  }
+
+  #next {
+    position: absolute;
+    width: 117px;
+    height: 27px;
+    left: 925px;
+    top: 1645px;
+    font-family: Poppins, Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: right;
+    color: #1a2236;
+  }
+
+  .html-css {
+    width: 49px;
+    height: 8px;
+    left: 30px;
+    top: 0px;
+    font-size: 10.3334px;
+
+  }
+
+  .ruby-rails {
+    position: absolute;
+    width: 139px;
+    height: 16px;
+    left: 302px;
+    top: 224px;
+    align-items: center;
+    padding-top: 12px;
+    padding-left: 12px;
+    font-family: Poppins, Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 80%;
+    color: #1a2236;
+  }
+
+  .javascript {
+    position: absolute;
+    width: 104px;
+    height: 16px;
+    left: 481px;
+    top: 224px;
+    align-items: center;
+    padding-top: 12px;
+    padding-left: 18px;
+    font-family: Poppins, Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 80%;
+    color: #1a2236;
+  }
+
+  .html-border {
+    width: 69px;
+    height: 20px;
+    left: 20px;
+    top: 96px;
+  }
+
+  .ruby-border {
+    position: absolute;
+    width: 159px;
+    height: 40px;
+    left: 282px;
+    top: 212px;
+    border: 1px solid #1a2236;
+    box-sizing: border-box;
+  }
+
+  .javascript-border {
+    position: absolute;
+    width: 144px;
+    height: 40px;
+    left: 471px;
+    top: 212px;
+    border: 1px solid #1a2236;
+    box-sizing: border-box;
+  }
+
+  #overlay {
+    position: fixed;
+    opacity: 0;
+    transition: 200ms ease-in-out;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(255 255 255 / 95%);
+    pointer-events: none;
+    z-index: 9;
+  }
+
+  #overlay.active {
+    opacity: 1;
+    pointer-events: all;
+  }
 }

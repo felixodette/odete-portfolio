@@ -1,3 +1,8 @@
+*::before,
+*::after {
+  transition: ease all 0.5s;
+}
+
 .flex-container {
   display: flex;
   flex-direction: column;
@@ -1000,7 +1005,7 @@ Desktop Site
 ===========================
 */
 
-@media screen and (max-width: 375px) {
+@media (max-width: 375px) {
   body {
     overflow-x: hidden;
   }
@@ -1179,7 +1184,7 @@ Desktop Site
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media (min-width: 768px) {
   body {
     width: 1440px;
     height: 4872px;
