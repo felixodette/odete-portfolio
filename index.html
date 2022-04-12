@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/modal.css">
     <link href='https://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -84,7 +85,7 @@
             <div class="javascript-rectangle">
                 <p>Javascript</p>
             </div>
-            <button type="button" class="see-project">See this project</button>
+            <button data-modal-target="#modal" type="button" class="see-project">See this project</button>
             <div class="arrow"></div>
         </div>
         <div class="image-geometry-4"></div>
@@ -102,7 +103,7 @@
             <div class="javascript-rectangle">
                 <p>Javascript</p>
             </div>
-            <button type="button" class="see-project">See this project</button>
+            <button data-modal-target="#modal" type="button" class="see-project">See this project</button>
             <div class="arrow"></div>
         </div>
         <div class="mac-iphone-image"></div>
@@ -255,6 +256,33 @@
                 </ul>
             </form>
         </div>
+        <div class="modal" id="modal">
+            <div class="modal-header">
+                <div class="title">Project name goes here</div>
+                <button data-close-button class="btn-close" type="button">&times;</button>
+            </div>
+            <div class="modal-body">
+                <img src="img/modals/Rectangle%2034.svg" alt="Laptop image" class="rectangle-34">
+                <img src="img/modals/Rectangle%2039.svg" alt="" class="rectangle-39">
+                <img src="img/modals/Rectangle%2040.svg" alt="" class="rectangle-40">
+                <img src="img/modals/Rectangle%2041.svg" alt="" class="rectangle-41">
+                <img src="img/modals/Rectangle%2042.svg" alt="" class="rectangle-42">
+                <div class="html-css html-border">HTML/CSS</div>
+                <div class="ruby-rails ruby-border">Ruby on Rails</div>
+                <div class="javascript javascript-border">Javascript</div>
+                <article>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                    <br>
+                    <br>
+                    Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
+                </article>
+                <button class="btn-see-live" type="button">See live</button>
+                <button class="btn-see-source" type="button">See source</button>
+                <a href="" id="previous">Previous project</a>
+                <a href="" id="next">Next project</a>
+            </div>
+        </div>
+        <div id="overlay"></div>
     </main>
     <footer>
         <h3>Get my Resume</h3>
