@@ -117,8 +117,7 @@ article {
   font-weight: 500;
   font-size: 18px;
   line-height: 27px;
-  text-align: left;
-  padding-left: 22px;
+  text-align: center;
 }
 
 .btn-see-source {
@@ -135,7 +134,6 @@ article {
   line-height: 27px;
   color: white;
   text-align: left;
-  padding-left: 22px;
 }
 
 #previous {
@@ -400,47 +398,36 @@ article {
     color: #1a2236;
   }
 
+  .html-css,
+  .ruby-rails,
+  .javascript {
+    padding: 6px 6px;
+  }
+
   .html-css {
     width: 49px;
     height: 8px;
     left: 30px;
-    top: 0px;
+    top: 102px;
     font-size: 10.3334px;
+    text-align: center;
 
   }
 
   .ruby-rails {
-    position: absolute;
-    width: 139px;
-    height: 16px;
-    left: 302px;
-    top: 224px;
-    align-items: center;
-    padding-top: 12px;
-    padding-left: 12px;
-    font-family: Poppins, Roboto, sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 20px;
-    line-height: 80%;
-    color: #1a2236;
+    width: 67px;
+    height: 8px;
+    left: 109px;
+    top: 102px;
+    font-size: 10.3334px;
   }
 
   .javascript {
-    position: absolute;
-    width: 104px;
-    height: 16px;
-    left: 481px;
-    top: 224px;
-    align-items: center;
-    padding-top: 12px;
-    padding-left: 18px;
-    font-family: Poppins, Roboto, sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 20px;
-    line-height: 80%;
-    color: #1a2236;
+    width: 54px;
+    height: 8px;
+    left: 196px;
+    top: 102px;
+    font-size: 10.3334px;
   }
 
   .html-border {
@@ -451,23 +438,17 @@ article {
   }
 
   .ruby-border {
-    position: absolute;
-    width: 159px;
-    height: 40px;
-    left: 282px;
-    top: 212px;
-    border: 1px solid #1a2236;
-    box-sizing: border-box;
+    width: 87px;
+    height: 20px;
+    left: 99px;
+    top: 96px;
   }
 
   .javascript-border {
-    position: absolute;
-    width: 144px;
-    height: 40px;
-    left: 471px;
-    top: 212px;
-    border: 1px solid #1a2236;
-    box-sizing: border-box;
+    width: 74px;
+    height: 20px;
+    left: 196px;
+    top: 96px;
   }
 
   #overlay {
