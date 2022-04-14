@@ -10,6 +10,7 @@ const navSlide = () => {
 const openModalButtons = document.querySelectorAll('[data-modal-target]');
 const closeModalButtons = document.querySelectorAll('[data-close-button]');
 const overlay = document.getElementById('overlay');
+const scrollTop = () => window.scrollTo({ top: 0, behavior: 'smooth' });
 const projects = {
   name: 'Project name goes here',
   languages: ['HTML/CSS', 'Ruby on Rails', 'Javascript'],
@@ -24,37 +25,6 @@ const projects = {
   live_link: '#',
   repo: '#',
 };
-
-openModalButtons.forEach(button => {
-    button.addEventListener('click', () => {
-      scrollTop();
-      const modal = document.querySelector(button.dataset.modalTarget)
-      openModal(modal)
-    })
-  })
-  
-const scrollTop = () => window.scrollTo({ top: 0, behavior: 'smooth' })
-
-closeModalButtons.forEach(button => {
-  button.addEventListener('click', () => {
-    const modal = button.closest('.modal')
-    closeModal(modal)
-  })
-})
-
-function openModal(modal) {
-  if (modal == null) return
-  modal.classList.add('active');
-  overlay.classList.add('active');
-  popup();
-}
-
-function closeModal(modal) {
-  if (modal == null) return
-  modal.classList.remove('active')
-  overlay.classList.remove('active')
-}
-
 const popup = () => {
   document.querySelector('[data-title]').innerHTML = projects.name;
   document.querySelector('#image-1').setAttribute('src', `../img/modals/${projects.image_1}`);
@@ -72,7 +42,6 @@ const popup = () => {
   document.querySelectorAll('[data-see-live]').forEach((alink) => alink.setAttribute('href', projects.live_link));
   document.querySelectorAll('[data-see-source]').forEach((alink) => alink.setAttribute('href', projects.repo));
 };
-const scrollTop = () => window.scrollTo({ top: 0, behavior: 'smooth' });
 
 function openModal(modal) {
   if (modal == null) return;
@@ -80,6 +49,7 @@ function openModal(modal) {
   overlay.classList.add('active');
   popup();
 }
+
 function closeModal(modal) {
   if (modal == null) return;
   modal.classList.remove('active');
@@ -98,6 +68,14 @@ closeModalButtons.forEach((button) => {
   button.addEventListener('click', () => {
     const modal = button.closest('.modal');
     closeModal(modal);
+  });
+});
+
+openModalButtons.forEach((button) => {
+  button.addEventListener('click', () => {
+    scrollTop();
+    const modal = document.querySelector(button.dataset.modalTarget);
+    openModal(modal);
   });
 });
 
