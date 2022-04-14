@@ -24,6 +24,37 @@ const projects = {
   live_link: '#',
   repo: '#',
 };
+
+openModalButtons.forEach(button => {
+    button.addEventListener('click', () => {
+      scrollTop();
+      const modal = document.querySelector(button.dataset.modalTarget)
+      openModal(modal)
+    })
+  })
+  
+const scrollTop = () => window.scrollTo({ top: 0, behavior: 'smooth' })
+
+closeModalButtons.forEach(button => {
+  button.addEventListener('click', () => {
+    const modal = button.closest('.modal')
+    closeModal(modal)
+  })
+})
+
+function openModal(modal) {
+  if (modal == null) return
+  modal.classList.add('active');
+  overlay.classList.add('active');
+  popup();
+}
+
+function closeModal(modal) {
+  if (modal == null) return
+  modal.classList.remove('active')
+  overlay.classList.remove('active')
+}
+
 const popup = () => {
   document.querySelector('[data-title]').innerHTML = projects.name;
   document.querySelector('#image-1').setAttribute('src', `../img/modals/${projects.image_1}`);
