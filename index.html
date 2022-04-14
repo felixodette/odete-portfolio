@@ -7,6 +7,7 @@
     <link href='https://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://use.fontawesome.com/75d401af0c.js"></script>
     <title>Felix Odete's Portfolio</title>
     <meta content="width=device-width, initial-scale=1" name="viewport">
 </head>
@@ -258,28 +259,23 @@
         </div>
         <div class="modal" id="modal">
             <div class="modal-header">
-                <div class="title">Project name goes here</div>
+                <div data-title class="title"></div>
                 <button data-close-button class="btn-close" type="button">&times;</button>
             </div>
             <div class="modal-body">
-                <img src="img/modals/Rectangle%2034.svg" alt="Laptop image" class="rectangle-34">
-                <img src="img/modals/Rectangle%2039.svg" alt="" class="rectangle-39">
-                <img src="img/modals/Rectangle%2040.svg" alt="" class="rectangle-40">
-                <img src="img/modals/Rectangle%2041.svg" alt="" class="rectangle-41">
-                <img src="img/modals/Rectangle%2042.svg" alt="" class="rectangle-42">
-                <div class="html-css html-border">HTML/CSS</div>
-                <div class="ruby-rails ruby-border">Ruby on Rails</div>
-                <div class="javascript javascript-border">Javascript</div>
-                <article>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-                    <br>
-                    <br>
-                    Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
-                </article>
-                <button class="btn-see-live" type="button">See live</button>
-                <button class="btn-see-source" type="button">See source</button>
-                <a href="" id="previous">Previous project</a>
-                <a href="" id="next">Next project</a>
+                <img src="#" alt="Project image" class="rectangle-34" id="image-1">
+                <img src="#" alt="Project image" class="rectangle-39" id="image-2">
+                <img src="#" alt="Project image" class="rectangle-40" id="image-3">
+                <img src="#" alt="Project image" class="rectangle-41" id="image-4">
+                <img src="#" alt="Project image" class="rectangle-42" id="image-5">
+                <div data-html-css class="html-css html-border"></div>
+                <div data-ruby-rails class="ruby-rails ruby-border"></div>
+                <div data-javascript class="javascript javascript-border"></div>
+                <article data-description></article>
+                <button data-see-live class="btn-see-live" type="button">See live <i class="fa fa-external-link"></i></button>
+                <button data-see-source class="btn-see-source" type="button">See source <i class="fa fa-github"></i></button>
+                <a href="" id="previous"><i class="fa-solid fa-arrow-left-long"></i>Previous project</a>
+                <a href="" id="next">Next project<i class="fa-solid fa-arrow-right-long"></i></a>
             </div>
         </div>
         <div id="overlay"></div>

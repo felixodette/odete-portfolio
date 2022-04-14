@@ -133,12 +133,12 @@ article {
   font-size: 18px;
   line-height: 27px;
   color: white;
-  text-align: left;
+  text-align: center;
 }
 
 #previous {
   position: absolute;
-  width: 153px;
+  width: 173px;
   height: 27px;
   left: 410px;
   top: 1645px;
