@@ -73,6 +73,47 @@ const popup = () => {
   document.querySelectorAll('[data-see-source]').forEach((alink) => alink.setAttribute('href', projects.repo));
 }
 
+const validateForm = (formItem) => {
+  let invalid = 0;
+  const regex = /\S+@\S+\.\S+/;
+  switch (true) {
+    case formItem.getAttribute('type') === 'email':
+      if (!regex.test(formItem.value)) {
+        formItem.nextElementSibling.innerHTML += 'The email is invalid <br>';
+        invalid += 1;
+      } else {
+        formItem.nextElementSibling.textContent.replace('The email is invalid <br>, ', '');
+      }
+      if (formItem.value !== formItem.value.toLowerCase()) {
+        formItem.nextElementSibling.innerHTML += 'The email should be in lowercase';
+        invalid += 1;
+      } else {
+        formItem.nextElementSibling.textContent.replace('The email should be in lowercase', '');
+      }
+      break;
+    case formItem.getAttribute('type') === 'text':
+      if (formItem.value.length > formItem.getAttribute('maxlength')) {
+        formItem.nextElementSibling.innerHTML += `The maximum number of character is ${formItem.getAttribute('maxlength')} <br>`;
+        invalid += 1;
+      } else {
+        formItem.nextElementSibling.textContent.replace(`The maximum number of character is ${formItem.getAttribute('maxlength')} <br>`, '');
+      }
+      if (formItem.value.length < formItem.getAttribute('minlength')) {
+        formItem.nextElementSibling.innerHTML += `The minimum number of character is ${formItem.getAttribute('minlength')}`;
+        invalid += 1;
+      } else {
+        formItem.nextElementSibling.textContent.replace(`The minimum number of character is ${formItem.getAttribute('maxlength')}`, '');
+      }
+      break;
+    default:
+      break;
+  }
+  if (invalid > 0) {
+    formItem.nextElementSibling.style.display = 'block';
+  }
+  return invalid;
+};
+
 const app = () => {
   navSlide();
 };
