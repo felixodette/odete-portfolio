@@ -26,14 +26,6 @@ const projects = {
   repo: '#'
 };
 
-openModalButtons.forEach(button => {
-  button.addEventListener('click', () => {
-    scrollTop();
-    const modal = document.querySelector(button.dataset.modalTarget)
-    openModal(modal)
-  })
-})
-
 const scrollTop = () => window.scrollTo({ top: 0, behavior: 'smooth' })
 
 closeModalButtons.forEach(button => {
