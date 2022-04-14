@@ -1296,11 +1296,6 @@ Desktop Site
     left: 0;
   }
 
-  .link-hello:active ~ hr {
-    margin-left: 25%;
-    z-index: 4;
-  }
-
   .link-portfolio {
     position: absolute;
     width: 66px;
