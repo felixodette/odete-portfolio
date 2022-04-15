@@ -1998,13 +1998,6 @@ Desktop Site
   }
 }
 
-form #list-name:invalid,
-form #list-email:invalid,
-form #list-textarea:invalid {
-  border-color: #900;
-  background-color: #fdd;
-}
-
 .error {
   width: 100%;
   padding: 0;
@@ -2013,8 +2006,21 @@ form #list-textarea:invalid {
   background-color: #900;
   border-radius: 0 0 5px 5px;
   box-sizing: border-box;
+  z-index: 99;
 }
 
 .error.active {
   padding: 0.3em;
+}
+
+small {
+  position: absolute;
+  font-family: "Playfair Display", Roboto, Arial, sans-serif;
+  top: 440px;
+  width: 300px;
+  left: 78%;
+  height: 30px;
+  font-size: 12px;
+  z-index: 1000;
+  color: red;
 }

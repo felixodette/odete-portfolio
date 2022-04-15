@@ -152,35 +152,24 @@ openModalButtons.forEach((button) => {
 
 const form = document.querySelector('[data-form]');
 const email = document.getElementById('list-email');
-const emailError = document.querySelector('#list-email + span.error');
 
-function showError() {
-  if (email.validity.valueMissing) {
-    emailError.textContent = 'Please enter an email address!';
-  } else if (email.validity.typeMismatch) {
-    emailError.textContent = 'Entered value needs to be an email address.';
-  } else if (email.validity.tooShort) {
-    emailError.textContent = `Email should be at least ${email.minlength} characters.`;
-  } if (email.value !== email.value.toLowerCase()) {
-    emailError.textContent = 'Please enter your email in lowercase';
+function validate(e) {
+  if (!e) {
+    document.querySelector('small').style = 'display: flex';
+    document.querySelector('small').innerHTML = 'Resubmit your email address in lowercase.';
+    document.querySelector('list-email').style = 'background-color: #fdd;';
   }
-  emailError.className = 'error active';
 }
 
-email.addEventListener('input', () => {
-  if (email.validity.valid) {
-    emailError.textContent = '';
-    emailError.className = 'error';
-  } else {
-    showError();
-  }
-});
-
 form.addEventListener('submit', (event) => {
-  if (!email.validity.valid) {
-    showError();
-    event.preventDefault();
+  event.preventDefault();
+  if (email.value !== email.value.toLowerCase()) {
+    validate(false);
+    return;
   }
+  form.submit();
+  form.reset();
+  validate(true);
 });
 
 const app = () => {
