@@ -1005,6 +1005,12 @@ Desktop Site
 ===========================
 */
 
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .desktop-nav {
+    display: none;
+  }
+}
+
 @media (max-width: 375px) {
   body {
     overflow-x: hidden;
