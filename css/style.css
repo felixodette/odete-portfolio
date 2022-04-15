@@ -1,3 +1,8 @@
+*::before,
+*::after {
+  transition: ease all 0.5s;
+}
+
 .flex-container {
   display: flex;
   flex-direction: column;
@@ -1000,7 +1005,7 @@ Desktop Site
 ===========================
 */
 
-@media screen and (max-width: 375px) {
+@media (max-width: 375px) {
   body {
     overflow-x: hidden;
   }
@@ -1166,6 +1171,20 @@ Desktop Site
     transform: matrix(1, 0, 0, -1, 0, 0);
   }
 
+  .card {
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    transition: 0.3s;
+    width: 40%;
+  }
+
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%);
+  }
+
+  .container {
+    padding: 2px 16px;
+  }
+
   @keyframes nav-links-fade {
     from {
       opacity: 0;
@@ -1179,10 +1198,11 @@ Desktop Site
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media (min-width: 768px) {
   body {
     width: 1440px;
     height: 4872px;
+    overflow-x: hidden;
   }
 
   .menu-button,
@@ -1289,11 +1309,6 @@ Desktop Site
     background: #000;
     width: 60%;
     left: 0;
-  }
-
-  .link-hello:active ~ hr {
-    margin-left: 25%;
-    z-index: 4;
   }
 
   .link-portfolio {
@@ -1523,6 +1538,7 @@ Desktop Site
     top: 1392px;
     background: rgb(26 34 54 / 95%);
     backdrop-filter: blur(24px);
+    z-index: 3;
   }
 
   .project-section h2 {
@@ -1532,6 +1548,7 @@ Desktop Site
     font-weight: 700;
     font-size: 60px;
     line-height: 80%;
+    z-index: 4;
   }
 
   .arrow {
@@ -1542,6 +1559,7 @@ Desktop Site
     top: 73.39px;
     left: 146px;
     margin-left: 10px;
+    z-index: 4;
   }
 
   .grid-container {
@@ -1550,23 +1568,27 @@ Desktop Site
     height: 40px;
     left: 492px;
     top: 1534px;
+    z-index: 4;
   }
 
   .html-css-rectangle {
     width: 132px;
     height: 40px;
     margin-right: 20px;
+    z-index: 4;
   }
 
   .ruby-rails-rectangle {
     width: 169px;
     height: 40px;
     margin-right: 20px;
+    z-index: 4;
   }
 
   .javascript-rectangle {
     width: 144px;
     height: 40px;
+    z-index: 4;
   }
 
   .html-css-rectangle p {
@@ -1579,6 +1601,7 @@ Desktop Site
     font-size: 20px;
     line-height: 80%;
     color: #1a2236;
+    z-index: 4;
   }
 
   .ruby-rails-rectangle p {
@@ -1591,6 +1614,7 @@ Desktop Site
     font-size: 20px;
     line-height: 80%;
     color: #1a2236;
+    z-index: 4;
   }
 
   .javascript-rectangle p {
@@ -1603,20 +1627,24 @@ Desktop Site
     font-size: 20px;
     line-height: 80%;
     color: #1a2236;
+    z-index: 4;
   }
 
   .see-project {
     background: #fff;
     color: #1a2236;
+    z-index: 4;
   }
 
   .grid-container .see-project {
     margin-top: 35px;
+    z-index: 4;
   }
 
   .grid-container .arrow {
     position: absolute;
     top: 109.2px;
+    z-index: 4;
   }
 
   .see-project:hover {
@@ -1959,7 +1987,8 @@ Desktop Site
     width: 1440px;
     height: 120px;
     left: 0;
-    top: 4729px;
+    top: 4839px;
+    overflow: hidden;
   }
 
   .social-icons {
@@ -1967,4 +1996,31 @@ Desktop Site
     left: 1000px;
     top: 47px;
   }
+}
+
+.error {
+  width: 100%;
+  padding: 0;
+  font-size: 80%;
+  color: white;
+  background-color: #900;
+  border-radius: 0 0 5px 5px;
+  box-sizing: border-box;
+  z-index: 99;
+}
+
+.error.active {
+  padding: 0.3em;
+}
+
+small {
+  position: absolute;
+  font-family: "Playfair Display", Roboto, Arial, sans-serif;
+  top: 440px;
+  width: 300px;
+  left: 78%;
+  height: 30px;
+  font-size: 12px;
+  z-index: 1000;
+  color: red;
 }
