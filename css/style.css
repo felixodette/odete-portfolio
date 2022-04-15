@@ -1202,6 +1202,7 @@ Desktop Site
   body {
     width: 1440px;
     height: 4872px;
+    overflow-x: hidden;
   }
 
   .menu-button,
@@ -1986,7 +1987,8 @@ Desktop Site
     width: 1440px;
     height: 120px;
     left: 0;
-    top: 4729px;
+    top: 4839px;
+    overflow: hidden;
   }
 
   .social-icons {
