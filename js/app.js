@@ -31,48 +31,48 @@ const mobileProjects = [{
   project: 'project-section',
   grid: 'grid-container',
   languages: ['HTML/CSS', 'Ruby on Rails', 'Javascript'],
-  modalLink: '#modal'
-  },
-  {
-    imageClass: 'macbook-image',
-    name: 'Project name goes here',
-    project: 'project-section-1',
-    grid: 'grid-container-1',
-    languages: ['HTML/CSS', 'Ruby on Rails', 'Javascript'],
-    modalLink: '#modal'
-  },
-  {
-    imageClass: 'mac-iphone-image',
-    name: 'Project name goes here',
-    project: 'project-section-2',
-    grid: 'grid-container-2',
-    languages: ['HTML/CSS', 'Ruby on Rails', 'Javascript'],
-    modalLink: '#modal'
-  },
-  {
-    imageClass: 'mac-right-image',
-    name: 'Project name goes here',
-    project: 'project-section-3',
-    grid: 'grid-container-3',
-    languages: ['HTML/CSS', 'Ruby on Rails', 'Javascript'],
-    modalLink: '#modal'
-  },
-  {
-    imageClass: 'mac-left-image',
-    name: 'Project name goes here',
-    project: 'project-section-4',
-    grid: 'grid-container-4',
-    languages: ['HTML/CSS', 'Ruby on Rails', 'Javascript'],
-    modalLink: '#modal'
-  },
-  {
-    imageClass: 'mac-pink',
-    name: 'Project name goes here',
-    project: 'project-section-5',
-    grid: 'grid-container-5',
-    languages: ['HTML/CSS', 'Ruby on Rails', 'Javascript'],
-    modalLink: '#modal'
-  }
+  modalLink: '#modal',
+},
+{
+  imageClass: 'macbook-image',
+  name: 'Project name goes here',
+  project: 'project-section-1',
+  grid: 'grid-container-1',
+  languages: ['HTML/CSS', 'Ruby on Rails', 'Javascript'],
+  modalLink: '#modal',
+},
+{
+  imageClass: 'mac-iphone-image',
+  name: 'Project name goes here',
+  project: 'project-section-2',
+  grid: 'grid-container-2',
+  languages: ['HTML/CSS', 'Ruby on Rails', 'Javascript'],
+  modalLink: '#modal',
+},
+{
+  imageClass: 'mac-right-image',
+  name: 'Project name goes here',
+  project: 'project-section-3',
+  grid: 'grid-container-3',
+  languages: ['HTML/CSS', 'Ruby on Rails', 'Javascript'],
+  modalLink: '#modal',
+},
+{
+  imageClass: 'mac-left-image',
+  name: 'Project name goes here',
+  project: 'project-section-4',
+  grid: 'grid-container-4',
+  languages: ['HTML/CSS', 'Ruby on Rails', 'Javascript'],
+  modalLink: '#modal',
+},
+{
+  imageClass: 'mac-pink',
+  name: 'Project name goes here',
+  project: 'project-section-5',
+  grid: 'grid-container-5',
+  languages: ['HTML/CSS', 'Ruby on Rails', 'Javascript'],
+  modalLink: '#modal',
+},
 ];
 
 const popup = () => {
@@ -105,7 +105,7 @@ function createCard(cardObject) {
   <div class="javascript-rectangle"><p>Javascript</p></div>
   <button data-modal-target="#modal" type="button" class="see-project">See this project</button>
   <div class="arrow"></div>
-  </div>`
+  </div>`;
   return div;
 }
 
@@ -121,8 +121,6 @@ function closeModal(modal) {
   modal.classList.remove('active');
   overlay.classList.remove('active');
 }
-
-
 
 mobileProjects.forEach((project) => {
   const card = createCard(project);
@@ -239,9 +237,9 @@ window.addEventListener('resize', () => {
   }
 });
 
-// const app = () => {
-//   navSlide();
-//   validateForm();
-// };
-//
-// app();
+const app = () => {
+  navSlide();
+  validateForm();
+};
+
+app();
