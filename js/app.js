@@ -150,96 +150,41 @@ openModalButtons.forEach((button) => {
   });
 });
 
-const validateForm = (formItem) => {
-  let isInvalid = 0;
-  const regex = /\S+@\S+\.\S+/;
-  switch (true) {
-    case formItem.getAttribute('type') === 'email':
-      if (!regex.test(formItem.value)) {
-        formItem.nextElementSibling.innerHTML += 'The email is invalid <br>';
-        isInvalid += 1;
-      } else {
-        formItem.nextElementSibling.textContent.replace('The email is invalid <br>, ', '');
-      }
-      if (formItem.value !== formItem.value.toLowerCase()) {
-        formItem.nextElementSibling.innerHTML += 'The email shoud be in lowercase';
-        isInvalid += 1;
-      } else {
-        formItem.nextElementSibling.textContent.replace('The email shoud be in lowercase', '');
-      }
-      break;
-    case formItem.getAttribute('type') === 'text':
-      if (formItem.value.length > formItem.getAttribute('maxlength')) {
-        formItem.nextElementSibling.innerHTML += `The maximum number of character is ${formItem.getAttribute('maxlength')} <br>`;
-        isInvalid += 1;
-      } else {
-        formItem.nextElementSibling.textContent.replace(`The maximum number of character is ${formItem.getAttribute('maxlength')} <br>`, '');
-      }
-      if (formItem.value.length < formItem.getAttribute('minlength')) {
-        formItem.nextElementSibling.innerHTML += `The minimum number of character is ${formItem.getAttribute('minlength')}`;
-        isInvalid += 1;
-      } else {
-        formItem.nextElementSibling.textContent.replace(`The minimum number of character is ${formItem.getAttribute('maxlength')}`, '');
-      }
-      break;
-    default:
-      break;
-  }
-  if (isInvalid > 0) {
-    formItem.nextElementSibling.style.display = 'block';
-  }
+const form = document.querySelector('[data-form]');
+const email = document.getElementById('list-email');
+const emailError = document.querySelector('#list-email + span.error');
 
-  return isInvalid;
-};
-
-document.querySelector('#contact-form').addEventListener('submit', (e) => {
-  let invalid = 0;
-  for (let i = 0; i < e.target.length; i += 1) {
-    if (!e.target[i].hasAttribute('disabled')) {
-      if (e.target[i].classList.contains('form-control')) {
-        if (e.target[i].value === '') {
-          invalid += 1;
-          e.target[i].nextElementSibling.innerHTML = `Pease enter your ${e.target[i].getAttribute('placeholder')}<br>`;
-          e.target[i].nextElementSibling.style.display = 'block';
-        } else {
-          e.target[i].nextElementSibling.textContent = '';
-        }
-      }
-      invalid += validateForm(e.target[i]);
-    }
+function showError() {
+  if (email.validity.valueMissing) {
+    emailError.textContent = 'Please enter an email address!';
+  } else if (email.validity.typeMismatch) {
+    emailError.textContent = 'Entered value needs to be an email address.';
+  } else if (email.validity.tooShort) {
+    emailError.textContent = `Email should be at least ${email.minlength} characters.`;
+  } if (email.value !== email.value.toLowerCase()) {
+    emailError.textContent = 'Please enter your email in lowercase';
   }
-  if (invalid > 0) {
-    e.preventDefault();
+  emailError.className = 'error active';
+}
+
+email.addEventListener('input', () => {
+  if (email.validity.valid) {
+    emailError.textContent = '';
+    emailError.className = 'error';
   } else {
-    localStorage.clear();
-    const userInfo = {
-      name: document.querySelector('#list-name').value,
-      email: document.querySelector('#list-email').value,
-      messge: document.querySelector('#list-textarea').value,
-    };
-    localStorage.setItem('userdata', JSON.stringify(userInfo));
+    showError();
   }
 });
 
-document.querySelectorAll('.form-control').forEach((element) => element.addEventListener('focus', () => {
-  element.nextElementSibling.style.display = 'none';
-}));
-
-window.addEventListener('resize', () => {
-  if (window.screen.width < 992) {
-    document.querySelector('[name="firstname"]').disabled = true;
-    document.querySelector('[name="lastname"]').disabled = true;
-    document.querySelector('[name="fullname"]').disabled = false;
-  } else {
-    document.querySelector('[name="firstname"]').disabled = false;
-    document.querySelector('[name="lastname"]').disabled = false;
-    document.querySelector('[name="fullname"]').disabled = true;
+form.addEventListener('submit', (event) => {
+  if (!email.validity.valid) {
+    showError();
+    event.preventDefault();
   }
 });
 
 const app = () => {
   navSlide();
-  validateForm();
 };
 
 app();

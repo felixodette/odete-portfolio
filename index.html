@@ -143,12 +143,12 @@
             <div class="form-text">
                 <p id="form-name" class="form-details">Your name</p>
                 <p id="form-email" class="form-details">Your email</p>
-                <p id="form-text" class="form-details text-area-text">Enter your message here...</p>
+                <p id="form-text" class="form-details">Enter your message here...</p>
             </div>
             <form data-form id="contact-form" action="https://formspree.io/f/xzboarvz" method="post">
                 <ul>
                     <li><input type="text" required minlength="3" maxlength="30" id="list-name"></li>
-                    <li><input type="email" required maxlength="50" id="list-email"></li>
+                    <li><input type="email" required maxlength="50" id="list-email"><span class="error" aria-live="polite"></span></li>
                     <li><textarea name="textarea" cols="30" rows="10" required maxlength="500" id="list-textarea"></textarea></li>
                     <li><button type="submit" class="btn-get-started">Start collaboration</button></li>
                 </ul>
