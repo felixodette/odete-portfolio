@@ -114,7 +114,7 @@ mobileProjects.forEach((project) => {
   const card = createCard(project);
   projectCards.appendChild(card);
 });
-
+const openModalButtons = document.querySelectorAll('[data-modal-target]');
 function openModal(modal) {
   if (modal == null) return;
   modal.classList.add('active');
